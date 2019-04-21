@@ -1,0 +1,5 @@
+This patch addon is temporary. It includes correcting the legacy radio backpack with proper values while hiding them in the arsenal. It also includes new items with proper classnames, simply inheriting properties from their respective legacy items. The intended roadmap is to keep things as is for a few months for the sake of backward compatibility, and then to migrate all config values to new items and definitely removing legacy items from the game.
+Ask [-GSRI-]Cheitan for more details.
+
+Cet addon est un patch temporaire. Il a pour objectif de corriger les items d'origine et de les masquer de l'arsenal. Il introduit également de nouveaux items correctement nommés, héritant leurs valeurs des items d'origine. L'évolution prévue est de maintenir les choses en l'état durant quelques mois afin de présever la rétrocompatibilité, puis à terme de transférer la config dans les nouveaux items et retirer définitivement les anciens du jeu.
+Voir avec [-GSRI-]Cheitan pour de plus amples détails.
