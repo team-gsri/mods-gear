@@ -18,7 +18,7 @@ class CfgWeapons
         author = "[-GSRI-]Seenri";
 	    displayName="Boonie hat (white)";
         hiddenSelections[]={};
-		hiddenSelectionsTextures[]={};
+		hiddenSelectionsTextures[]={\gsri_headgear\data\woolhat_white_co};
 		hiddenSelectionsMaterials[]={};
     };
 class CfgGlasses
@@ -33,7 +33,7 @@ class CfgGlasses
         author = "[-GSRI-]Seenri";
 	    displayName="balaclava-combat (white)";
         hiddenSelections[]={};
-		hiddenSelectionsTextures[]={};
+		hiddenSelectionsTextures[]={\gsri_headgear\data\balaclava_white_co};
 		hiddenSelectionsMaterials[]={};
     };
     class W_Balaclava_white : G_Balaclava_oli 
@@ -43,7 +43,7 @@ class CfgGlasses
     author = "[-GSRI-]Seenri";
 	displayName="balaclava (white)";
     hiddenSelections[]={};
-	hiddenSelectionsTextures[]={};
+	hiddenSelectionsTextures[]={\gsri_headgear\data\balaclava_white_co};
 	hiddenSelectionsMaterials[]={};
     };
 };
