@@ -1,0 +1,4 @@
+- Décompresser la config des vestes
+- Extraire les classnames problématiques
+- Créer le patch
+- Test, test, test !
