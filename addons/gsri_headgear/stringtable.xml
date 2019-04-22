@@ -9,17 +9,23 @@
 			</Key>
 		</Container>
 		
-		<Container name="gsri-headgear">
+		<Container name="gsri_Balaclava_Combat_Googles">
 			<Key ID="str_Balaclava_Combat_Googles_white_displayname">
 				<Original>Balaclava (Combat Googles white)</Original>
 				<English>Balaclava (Combat Googles (white))</English>
 				<French>Balaclava (Masque de Combat (Hiver))</French>
 			</Key>
+		</Container>
+
+		<Container name="gsri_Balaclava">	
 			<Key ID="str_Balaclava_white_displayname)">
 				<Original>Balaclava (white)</Original>
                 <English>Balaclava (Combat Googles (white))</English>
 				<French>Balaclava (Hiver)</French>
 			</Key>
+		</Container>
+
+		<Container name="gsri_Beanie">	
             <Key ID="str_Beanie_white_displayname)">
 				<Original>Beanie (white)</Original>
                 <English>Beanie (white)</English>
