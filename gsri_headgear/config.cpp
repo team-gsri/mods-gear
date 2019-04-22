@@ -16,11 +16,12 @@ class CfgWeapons
         scope = 2;
         scopeArsenal = 2;
         author = "[-GSRI-]Seenri";
-	    displayName="Boonie hat (white)";
-        hiddenSelections[]={};
-		hiddenSelectionsTextures[]={\gsri_headgear\data\woolhat_white_co};
+	    displayName="Beanie (white)";
+        hiddenSelections[]={"camo"};
+		hiddenSelectionsTextures[]={"\gsri_headgear\data\woolhat_white_co"};
 		hiddenSelectionsMaterials[]={};
     };
+};    
 class CfgGlasses
 {
     class G_Balaclava_combat;
@@ -31,9 +32,9 @@ class CfgGlasses
         scope = 2;
         scopeArsenal = 2;
         author = "[-GSRI-]Seenri";
-	    displayName="balaclava-combat (white)";
-        hiddenSelections[]={};
-		hiddenSelectionsTextures[]={\gsri_headgear\data\balaclava_white_co};
+	    displayName="Balaclava (Combat Googles white)";
+        hiddenSelections[]={"camo1"};
+		hiddenSelectionsTextures[]={"\gsri_headgear\data\balaclava_white_co"};
 		hiddenSelectionsMaterials[]={};
     };
     class W_Balaclava_white : G_Balaclava_oli 
@@ -41,9 +42,9 @@ class CfgGlasses
     scope = 2;
     scopeArsenal = 2;
     author = "[-GSRI-]Seenri";
-	displayName="balaclava (white)";
-    hiddenSelections[]={};
-	hiddenSelectionsTextures[]={\gsri_headgear\data\balaclava_white_co};
+	displayName="Balaclava (white)";
+    hiddenSelections[]={"camo"};
+	hiddenSelectionsTextures[]={"\gsri_headgear\data\balaclava_white_co"};
 	hiddenSelectionsMaterials[]={};
     };
 };
