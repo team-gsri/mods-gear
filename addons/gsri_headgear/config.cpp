@@ -12,10 +12,19 @@ class CfgWeapons
     class H_Beret_02;
     class GSRI_beret : H_Beret_02 {
 		author = "GSRI";
-		displayName = "$str_gsri_beret_displayName";
-		picture = "\gsri_headgear\data\beret.paa";
+		displayName = "$STR_gsri_beret_displayName";
+		picture = "\gsri_headgear\data\beret_ico.paa";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\gsri_beret\data\beret.paa"};
+    };
+
+    // Hiding the legacy beret
+    class ItemCore;
+    class gsri_le_beret : ItemCore {
+        scope = 1;
+        scopeArsenal = 0;
+        displayName = "OBSOLETE";
+        descriptionShort = "OBSOLETE, WILL BE REMOVED, USE NEW ITEM";
     };
 
     class H_watchcap_blk;
