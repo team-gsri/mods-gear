@@ -9,8 +9,16 @@ class CfgPatches {
 
 class CfgWeapons 
 {
-    class H_watchcap_blk;
+    class H_Beret_02;
+    class GSRI_beret : H_Beret_02 {
+		author = "GSRI";
+		displayName = "$str_gsri_beret_displayName";
+		picture = "\gsri_headgear\data\beret.paa";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\gsri_beret\data\beret.paa"};
+    };
 
+    class H_watchcap_blk;
     class H_watchcap_wht : H_watchcap_blk
     {
         scope = 2;
@@ -39,12 +47,12 @@ class CfgGlasses
     };
     class W_Balaclava_white : G_Balaclava_oli 
     {
-    scope = 2;
-    scopeArsenal = 2;
-    author = "[-GSRI-]Seenri";
-	displayName="Balaclava (white)";
-    hiddenSelections[]={"camo"};
-	hiddenSelectionsTextures[]={"\gsri_headgear\data\balaclava_white_co"};
-	hiddenSelectionsMaterials[]={};
+        scope = 2;
+        scopeArsenal = 2;
+        author = "[-GSRI-]Seenri";
+        displayName="Balaclava (white)";
+        hiddenSelections[]={"camo"};
+        hiddenSelectionsTextures[]={"\gsri_headgear\data\balaclava_white_co"};
+        hiddenSelectionsMaterials[]={};
     };
 };

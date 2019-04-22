@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="gsri_headgear">
+	<Package name="various">
+		<Container name="gsri_beret">
+			<Key ID="str_gsri_beret_displayName">
+				<Original>Beret (GSRI)</Original>
+				<English>Beret (GSRI)</English>
+				<French>Béret (GSRI)</French>
+			</Key>
+		</Container>
+	</Package>
+</Project>
