@@ -1,0 +1,49 @@
+class CfgPatches {
+    class gsri_Headgear {
+        units[]={};
+        requiredVersion=0.1;
+        requiredAddons[]={"A3_Characters_F"};
+        author="[-GSRI-]Seenri";
+    };
+};
+
+class CfgWeapons 
+{
+    class H_watchcap_blk;
+
+    class H_watchcap_wht : H_watchcap_blk
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        author = "[-GSRI-]Seenri";
+	    displayName="Boonie hat (white)";
+        hiddenSelections[]={};
+		hiddenSelectionsTextures[]={};
+		hiddenSelectionsMaterials[]={};
+    };
+class CfgGlasses
+{
+    class G_Balaclava_combat;
+    class G_Balaclava_oli;
+
+    class W_Balaclava_combat : G_Balaclava_combat 
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        author = "[-GSRI-]Seenri";
+	    displayName="balaclava-combat (white)";
+        hiddenSelections[]={};
+		hiddenSelectionsTextures[]={};
+		hiddenSelectionsMaterials[]={};
+    };
+    class W_Balaclava_white : G_Balaclava_oli 
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    author = "[-GSRI-]Seenri";
+	displayName="balaclava (white)";
+    hiddenSelections[]={};
+	hiddenSelectionsTextures[]={};
+	hiddenSelectionsMaterials[]={};
+    };
+};
