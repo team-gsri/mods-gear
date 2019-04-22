@@ -8,5 +8,23 @@
 				<French>Béret (GSRI)</French>
 			</Key>
 		</Container>
+		
+		<Container name="gsri-headgear">
+			<Key ID="str_Balaclava_Combat_Googles_white_displayname">
+				<Original>Balaclava (Combat Googles white)</Original>
+				<English>Balaclava (Combat Googles (white))</English>
+				<French>Balaclava (Masque de Combat (Hiver))</French>
+			</Key>
+			<Key ID="str_Balaclava_white_displayname)">
+				<Original>Balaclava (white)</Original>
+                <English>Balaclava (Combat Googles (white))</English>
+				<French>Balaclava (Hiver)</French>
+			</Key>
+            <Key ID="str_Beanie_white_displayname)">
+				<Original>Beanie (white)</Original>
+                <English>Beanie (white)</English>
+				<French>Bonnet (Hiver)</French>
+			</Key>
+		</Container>
 	</Package>
 </Project>
