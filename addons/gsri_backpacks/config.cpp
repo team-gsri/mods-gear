@@ -12,9 +12,11 @@ class CfgVehicles {
 
     class KIT_BAG_pince_OD : B_AssaultPack_mcamo {
         ace_logistics_wirecutter_hasWireCutter = 1;
+        mass = 65; //40+25 for the cutter
     };
 
     class SOG_BAG_BREACHER_od : B_AssaultPack_mcamo {
         ace_logistics_wirecutter_hasWireCutter = 1;
+        mass = 55; //30+25 for the cutter
     };
 };
