@@ -2,7 +2,7 @@ class CfgPatches {
     class gsri_radio {
         units[]={};
         requiredVersion=0.1;
-        requiredAddons[]={"COS_back_pack"};
+        requiredAddons[]={"COS_back_pack", "tfar_core"};
         author="[-GSRI-]Cheitan";
     };
 };
