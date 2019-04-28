@@ -1,5 +1,5 @@
 class CfgPatches {
-    class gsri_Headgear {
+    class gsri_headgear {
         units[]={};
         requiredVersion=0.1;
         requiredAddons[]={"A3_Characters_F"};
