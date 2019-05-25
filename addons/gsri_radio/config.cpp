@@ -21,6 +21,10 @@ class CfgVehicles {
         tf_dialog = "rt1523g_radio_dialog";
         tf_subtype = "digital_lr";
         displayName = "OBSOLETE, SWITCH TO NEW ITEM";
+        class EventHandlers
+        {
+            init = "['Using an old backpack classname, please consider switching to the new one.', 'Obsolete backpack', false, 'Understood !'] spawn BIS_fnc_guiMessage";
+        };
     };
     class KIT_BAG_R_OD : B_AssaultPack_mcamo {
         scope = 1;
@@ -31,6 +35,10 @@ class CfgVehicles {
         tf_dialog = "rt1523g_radio_dialog";
         tf_subtype = "digital_lr";
         displayName = "OBSOLETE, SWITCH TO NEW ITEM";
+        class EventHandlers
+        {
+            init = "['Using an old backpack classname, please consider switching to the new one.', 'Obsolete backpack', false, 'Understood !'] spawn BIS_fnc_guiMessage";
+        };
     };
 
     // Adding new items with proper classname
@@ -39,11 +47,19 @@ class CfgVehicles {
         scopeArsenal = 2;
         author = "[-GSRI-]Cheitan";
 		displayName="[-GSRI-] Sac 5.11 - Coms (OD)";
+        class EventHandlers
+        {
+            init = "";
+        };
     };
     class GSRI_backpack_B_LR : C {
         scope = 2;
         scopeArsenal = 2;
         author = "[-GSRI-]Cheitan";
 		displayName="[-GSRI-] Sac FS - Coms (OD)";
+        class EventHandlers
+        {
+            init = "";
+        };
     };
 };
