@@ -42,7 +42,7 @@ class CfgVehicles {
         tf_dialog = "rt1523g_radio_dialog";
         tf_subtype = "digital_lr";
     };
-    class GSRI_backpack_B
+    class GSRI_backpack_B;
     class GSRI_backpack_B_LR : GSRI_backpack_B {
 		displayName="$STR_GSRI_backpack_B_LR_displayName";
         maximumLoad = 100; //160-60
