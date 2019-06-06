@@ -14,7 +14,7 @@ class CfgVehicles {
     //for radio variants, see gsri_radio.pbo
     class KIT_BAG_Alpin_OD : B_AssaultPack_mcamo {
         scope = 1;
-        scopeArsenal = 1;
+        scopeArsenal = 0;
         displayName="$STR_GSRI_backpack_obsolete_displayName";
         class EventHandlers
         {
@@ -23,7 +23,7 @@ class CfgVehicles {
     };
     class KIT_BAG_od : B_AssaultPack_mcamo {
         scope = 1;
-        scopeArsenal = 1;
+        scopeArsenal = 0;
         displayName="$STR_GSRI_backpack_obsolete_displayName";
         class EventHandlers
         {
@@ -32,7 +32,7 @@ class CfgVehicles {
     };
     class KIT_BAG_pince_OD : B_AssaultPack_mcamo {
         scope = 1;
-        scopeArsenal = 1;
+        scopeArsenal = 0;
         displayName="$STR_GSRI_backpack_obsolete_displayName";
         class EventHandlers
         {
@@ -41,7 +41,7 @@ class CfgVehicles {
     };
     class SOG_BAG_ALPIN_od : B_AssaultPack_mcamo {
         scope = 1;
-        scopeArsenal = 1;
+        scopeArsenal = 0;
         displayName="$STR_GSRI_backpack_obsolete_displayName";
         class EventHandlers
         {
@@ -50,7 +50,7 @@ class CfgVehicles {
     };
     class SOG_BAG_BREACHER_od : B_AssaultPack_mcamo {
         scope = 1;
-        scopeArsenal = 1;
+        scopeArsenal = 0;
         displayName="$STR_GSRI_backpack_obsolete_displayName";
         class EventHandlers
         {
@@ -59,7 +59,7 @@ class CfgVehicles {
     };
     class SOG_BAG_med_od : B_AssaultPack_mcamo {
         scope = 1;
-        scopeArsenal = 1;
+        scopeArsenal = 0;
         displayName="$STR_GSRI_backpack_obsolete_displayName";
         class EventHandlers
         {
@@ -68,7 +68,7 @@ class CfgVehicles {
     };
     class SOG_BAG_OD : B_AssaultPack_mcamo {
         scope = 1;
-        scopeArsenal = 1;
+        scopeArsenal = 0;
         displayName="$STR_GSRI_backpack_obsolete_displayName";
         class EventHandlers
         {
@@ -127,7 +127,7 @@ class CfgVehicles {
 		model="\COS_back_pack\SOG_BAG_BREACHER";
         ace_logistics_wirecutter_hasWireCutter = 1;
         mass = 45; //20+25 for the wirecutter
-        //no change in default maxLoad (280) because the cutter hangs outside the bag
+        //no change in default maxLoad (160) because the cutter hangs outside the bag
     };
     class GSRI_backpack_B_medic : GSRI_backpack_B {
         displayName="$STR_GSRI_backpack_B_medic_displayName";
