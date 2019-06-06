@@ -23,7 +23,7 @@ class CfgVehicles {
         displayName = "OBSOLETE, SWITCH TO NEW ITEM";
         class EventHandlers
         {
-            init = "['Using an old backpack classname, please consider switching to the new one.', 'Obsolete backpack', false, 'Understood !'] spawn BIS_fnc_guiMessage";
+            init = "systemChat 'Using an old backpack classname, please consider switching to the new one !'";
         };
     };
     class KIT_BAG_R_OD : B_AssaultPack_mcamo {
@@ -37,7 +37,7 @@ class CfgVehicles {
         displayName = "OBSOLETE, SWITCH TO NEW ITEM";
         class EventHandlers
         {
-            init = "['Using an old backpack classname, please consider switching to the new one.', 'Obsolete backpack', false, 'Understood !'] spawn BIS_fnc_guiMessage";
+            init = "systemChat 'Using an old backpack classname, please consider switching to the new one !'";
         };
     };
 
