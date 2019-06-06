@@ -31,5 +31,28 @@
 				<French>[-GSRI-] Sac 5.11 (matériel d'escalade)</French>
 			</Key>
 		</Container>
+
+		<Container name="GSRI_backpack_B">
+			<Key ID="STR_GSRI_backpack_B_displayName">
+				<Original>[-GSRI-] Assault Pack</Original>
+				<English>[-GSRI-] Assault Pack</English>
+				<French>[-GSRI-] Paquetage d'assaut</French>
+			</Key>
+			<Key ID="STR_GSRI_backpack_B_pince_displayName">
+				<Original>[-GSRI-] Assault Pack (wirecutter)</Original>
+				<English>[-GSRI-] Assault Pack (wirecutter)</English>
+				<French>[-GSRI-] Paquetage d'assaut (coupe-fil)</French>
+			</Key>
+			<Key ID="STR_GSRI_backpack_B_medic_displayName">
+				<Original>[-GSRI-] Assault Pack (medic)</Original>
+				<English>[-GSRI-] Assault Pack (medic)</English>
+				<French>[-GSRI-] Paquetage d'assaut (médical)</French>
+			</Key>
+			<Key ID="STR_GSRI_backpack_B_alpin_displayName">
+				<Original>[-GSRI-] Assault Pack (climbing gear)</Original>
+				<English>[-GSRI-] Assault Pack (climbing gear)</English>
+				<French>[-GSRI-] Paquetage d'assaut (matériel d'escalade)</French>
+			</Key>
+		</Container>
 	</Package>
 </Project>
