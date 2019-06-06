@@ -87,6 +87,9 @@ class CfgVehicles {
 		displayName="$STR_GSRI_backpack_A_displayName";
 		picture="COS_back_pack\data\icon\Sac_assausl_od.paa";
         model = "\COS_back_pack\KIT_BAG";
+		hiddenSelections[]={};
+		hiddenSelectionsTextures[]={};
+		hiddenSelectionsMaterials[]={};
     };
     class GSRI_backpack_A_pince : GSRI_backpack_A {
 		displayName="$STR_GSRI_backpack_A_pince_displayName";
