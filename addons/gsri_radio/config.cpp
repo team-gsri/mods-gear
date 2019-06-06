@@ -36,6 +36,7 @@ class CfgVehicles {
 		displayName="$STR_GSRI_backpack_A_LR_displayName";
         maximumLoad = 220; //280-60
         mass = 110; //50+60
+		model="\COS_back_pack\KIT_BAG_R";
         tf_HasLRradio = 1;
         tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
         tf_encryptionCode = "tf_west_radio_code";
@@ -47,6 +48,7 @@ class CfgVehicles {
 		displayName="$STR_GSRI_backpack_B_LR_displayName";
         maximumLoad = 100; //160-60
         mass = 80; //20+60
+		model="\COS_back_pack\SOG_BAG_recon";
         tf_HasLRradio = 1;
         tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
         tf_encryptionCode = "tf_west_radio_code";
