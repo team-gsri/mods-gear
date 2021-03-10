@@ -22,3 +22,10 @@ class CfgMagazineWells {
         };
     };
 };
+
+class CfgWeapons {
+    class Rifle_Base_F;
+    class arifle_MSBS65_base_F : Rifle_Base_F {
+        magazineWell[] += {"CBA_556x45_STANAG"};
+    };
+};
