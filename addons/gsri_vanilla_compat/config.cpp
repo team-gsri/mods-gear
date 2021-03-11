@@ -24,6 +24,7 @@ class CfgMagazineWells {
 };
 
 class asdg_OpticRail1913;
+class asdg_FrontSideRail;
 
 class CfgWeapons {
     class Rifle;
@@ -35,6 +36,10 @@ class CfgWeapons {
         class WeaponSlotsInfo: WeaponSlotsInfo {
             class CowsSlot: asdg_OpticRail1913 {
                 iconPosition[] = {0.45,0.28};
+                iconScale = 0.2;
+            };
+            class PointerSlot: asdg_FrontSideRail {
+                iconPosition[] = {0.35,0.45};
                 iconScale = 0.2;
             };
         };
