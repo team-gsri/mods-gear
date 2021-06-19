@@ -10,6 +10,10 @@
 				<English>Flag (French)</English>
 				<French>Drapeau (Français)</French>
 			</Key>
+			<Key ID="STR_GSRI_FLAG_EU">
+				<English>Flag (Europe)</English>
+				<French>Drapeau (Europe)</French>
+			</Key>
 		</Container>
 	</Package>
 </Project>
