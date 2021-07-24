@@ -13,7 +13,7 @@ class CfgWeapons
     class GSRI_beret : H_Beret_02 {
         author = "GSRI";
         displayName = "$STR_gsri_beret_displayName";
-        picture = "\gsri_headgear\data\beret_ico.paa";
+        picture = "\fr\gsri\headgear\data\beret_ico.paa";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\gsri_beret\data\beret.paa"};
     };
@@ -35,7 +35,7 @@ class CfgWeapons
         author = "[-GSRI-]Seenri";
         displayName="Beanie (white)";
         hiddenSelections[]={"camo"};
-        hiddenSelectionsTextures[]={"\gsri_headgear\data\woolhat_white_co.paa"};
+        hiddenSelectionsTextures[]={"\fr\gsri\headgear\data\woolhat_white_co.paa"};
         hiddenSelectionsMaterials[]={};
     };
 };    
@@ -51,7 +51,7 @@ class CfgGlasses
         author = "[-GSRI-]Seenri";
         displayName="Balaclava (Combat Googles white)";
         hiddenSelections[]={"camo1"};
-        hiddenSelectionsTextures[]={"\gsri_headgear\data\balaclava_white_co.paa"};
+        hiddenSelectionsTextures[]={"\fr\gsri\headgear\data\balaclava_white_co.paa"};
         hiddenSelectionsMaterials[]={};
     };
     class W_Balaclava_white : G_Balaclava_oli 
@@ -61,7 +61,7 @@ class CfgGlasses
         author = "[-GSRI-]Seenri";
         displayName="Balaclava (white)";
         hiddenSelections[]={"camo"};
-        hiddenSelectionsTextures[]={"\gsri_headgear\data\balaclava_white_co.paa"};
+        hiddenSelectionsTextures[]={"\fr\gsri\headgear\data\balaclava_white_co.paa"};
         hiddenSelectionsMaterials[]={};
     };
 };
