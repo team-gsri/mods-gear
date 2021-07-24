@@ -1,5 +1,5 @@
 class CfgPatches {
-    class gsri_radio {
+    class gsri_vests {
         units[]={};
         requiredVersion=0.1;
         requiredAddons[]={"COS_gilet"};
