@@ -8,7 +8,6 @@
 				<French>OBSOLETE, UTILISEZ LE NOUVEL ITEM</French>
 			</Key>
 		</Container>
-
 		<Container name="GSRI_backpack_A">
 			<Key ID="STR_GSRI_backpack_A_LR_displayName">
 				<Original>[-GSRI-] 5.11 Kitbag (RT-1523G radio)</Original>
@@ -16,7 +15,6 @@
 				<French>[-GSRI-] Sac 5.11 (radio RT-1523G)</French>
 			</Key>
 		</Container>
-
 		<Container name="GSRI_backpack_B">
 			<Key ID="STR_GSRI_backpack_B_LR_displayName">
 				<Original>[-GSRI-] Assault Pack (RT-1523G radio)</Original>
