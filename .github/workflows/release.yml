@@ -39,7 +39,7 @@ jobs:
         source: 'addons/gsri_flags'
         target: 'addons'
         includes: '*.paa;*.xml'
-        flags: '-clear','-prefix=fr/gsri/flags'
+        flags: '-clear,-prefix=fr/gsri/flags'
 
     - name: Build addons
       uses: team-gsri/actions-addon-builder@master
@@ -47,7 +47,7 @@ jobs:
         source: 'addons/gsri_headgear'
         target: 'addons'
         includes: '*.paa;*.xml'
-        flags: '-clear','-prefix=fr/gsri/headgear'
+        flags: '-clear,-prefix=fr/gsri/headgear'
 
     - name: Build addons
       uses: team-gsri/actions-addon-builder@master
