@@ -1,0 +1,101 @@
+name: release
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout files
+      uses: actions/checkout@v2
+
+    - name: Lint sources
+      uses: jokoho48/sqflint@master
+      with:
+        args: --exit e --directory addons
+
+  build:
+    needs: lint
+    runs-on: self-hosted
+    steps:
+
+    - name: Checkout files
+      uses: actions/checkout@v2
+
+    - name: Build GSRI Backpacks
+      uses: team-gsri/actions-addon-builder@master
+      with:
+        source: 'addons/gsri_backpacks'
+        target: 'addons'
+        includes: '*.xml'
+        flags: '-clear'
+
+    - name: Build GSRI Flags
+      uses: team-gsri/actions-addon-builder@master
+      with:
+        source: 'addons/gsri_flags'
+        target: 'addons'
+        includes: '*.paa;*.xml'
+        flags: '"-clear","-prefix=fr/gsri/flags"'
+
+    - name: Build GSRI Headgear
+      uses: team-gsri/actions-addon-builder@master
+      with:
+        source: 'addons/gsri_headgear'
+        target: 'addons'
+        includes: '*.paa;*.xml'
+        flags: '"-clear","-prefix=fr/gsri/headgear"'
+
+    - name: Build GSRI Radio
+      uses: team-gsri/actions-addon-builder@master
+      with:
+        source: 'addons/gsri_radio'
+        target: 'addons'
+        includes: '*.xml'
+        flags: '-clear'
+
+    - name: Build GSRI Vanilla Compat
+      uses: team-gsri/actions-addon-builder@master
+      with:
+        source: 'addons/gsri_vanilla_compat'
+        target: 'addons'
+        includes: '*.xml'
+        flags: '-clear'
+
+    - name: Build GSRI Vests
+      uses: team-gsri/actions-addon-builder@master
+      with:
+        source: 'addons/gsri_vests'
+        target: 'addons'
+        includes: '*.xml'
+        flags: '-clear'
+
+    - name: Upload pbo files
+      uses: actions/upload-artifact@v2
+      with:
+        name: addons
+        path: addons/*.pbo
+      
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Download pbo files
+      uses: actions/download-artifact@v2
+      with:
+        name: addons
+        path: ./addons
+
+    - name: Create Github release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: >
+        gh release create "ver-${GITHUB_SHA::7}"
+        --title "Version ${GITHUB_SHA::7}"
+        --notes "${{ github.event.head_commit.message }}"
+        --repo ${{ github.repository }}
+        ./addons/*.pbo
