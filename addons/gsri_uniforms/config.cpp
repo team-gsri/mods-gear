@@ -1,6 +1,6 @@
 class CfgPatches {
 	class gsri_uniforms	{
-		author="[-GSRI-] PhileasLX";
+		author="$STR_GSRI_UNIFORMS_AUTHOR";
 		units[]={};
 		weapons[]={};
 		requiredVersion=0.1;
@@ -80,7 +80,7 @@ class cfgWeapons {
 	};
 
 	class GSRI_uniform: Uniform_Base {
-		author="GSRI";
+		author="$STR_GSRI_UNIFORMS_AUTHOR";
 		scope=2;
 		displayName="$STR_GSRI_UNIFORM_BASE";
 		picture="\fr\gsri\uniforms\UI\icon_gsri_uniform.paa";
