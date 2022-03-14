@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Project name="gsri_headgear">
 	<Package name="various">
+		<Container name="Metadata">
+			<Key ID="STR_GSRI_AUTHOR_SEENRI">
+				<Original>[-GSRI-] Seenri for www.gsri.team</Original>
+				<French>[-GSRI-] Seenri pour www.gsri.team</French>
+			</Key>
+		</Container>
 		<Container name="GSRI_beret">
 			<Key ID="STR_gsri_beret_displayName">
 				<Original>Beret (GSRI)</Original>
@@ -27,6 +33,36 @@
 				<Original>Beanie (white)</Original>
                 <English>Beanie (white)</English>
 				<French>Bonnet (Hiver)</French>
+			</Key>
+		</Container>
+	</Package>
+	<Package name="gsri_helmets">
+		<Container name="Metadata">
+			<Key ID="STR_GSRI_HELMETS_AUTHOR">
+				<Original>[-GSRI-] Phileas for www.gsri.team</Original>
+				<French>[-GSRI-] Phileas pour www.gsri.team</French>
+			</Key>
+		</Container>
+		<Container name="Helmet names">
+			<Key ID="STR_GSRI_HELMET">
+				<Original>[-GSRI-] Combat Helmet</Original>
+				<French>[-GSRI-] Casque de combat</French>
+			</Key>
+			<Key ID="STR_GSRI_HELMET_SPEC">
+				<Original>[-GSRI-] Enhanced Combat Helmet</Original>
+				<French>[-GSRI-] Casque de combat amélioré</French>
+			</Key>
+			<Key ID="STR_GSRI_HELMET_LIGHT">
+				<Original>[-GSRI-] Light Combat Helmet</Original>
+				<French>[-GSRI-] Casque léger de combat</French>
+			</Key>
+			<Key ID="STR_GSRI_HELMET_MODULAR">
+				<Original>[-GSRI-] Modular Helmet</Original>
+				<French>[-GSRI-] Casque modulable</French>
+			</Key>
+			<Key ID="STR_GSRI_HELMET_MODULAR_ADVANCED">
+				<Original>[-GSRI-] Advanced Modular Helmet</Original>
+				<French>[-GSRI-] Casque modulable avancé</French>
 			</Key>
 		</Container>
 	</Package>
