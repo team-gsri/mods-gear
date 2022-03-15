@@ -15,7 +15,7 @@ class CfgWeapons
         displayName = "$STR_gsri_beret_displayName";
         picture = "\fr\gsri\headgear\data\beret_ico.paa";
         hiddenSelections[] = {"camo"};
-        hiddenSelectionsTextures[] = {"\gsri_beret\data\beret.paa"};
+        hiddenSelectionsTextures[] = {"\fr\gsri\headgear\data\beret.paa"};
     };
 
     // Hiding the legacy beret
