@@ -9,30 +9,30 @@
 		</Container>
 		<Container name="GSRI_beret">
 			<Key ID="STR_gsri_beret_displayName">
-				<Original>Beret (GSRI)</Original>
-				<English>Beret (GSRI)</English>
-				<French>Béret (GSRI)</French>
+				<Original>[-GSRI-] Beret</Original>
+				<English>[-GSRI-] Beret</English>
+				<French>[-GSRI-] Béret</French>
 			</Key>
 		</Container>
 		<Container name="gsri_Balaclava_Combat_Googles">
 			<Key ID="str_Balaclava_Combat_Googles_white_displayname">
-				<Original>Balaclava (Combat Googles white)</Original>
-				<English>Balaclava (Combat Googles (white))</English>
-				<French>Balaclava (Masque de Combat (Hiver))</French>
+				<Original>[-GSRI-] Balaclava (Combat Googles white)</Original>
+				<English>[-GSRI-] Balaclava (Combat Googles (white))</English>
+				<French>[-GSRI-] Balaclava (Masque de Combat (Hiver))</French>
 			</Key>
 		</Container>
 		<Container name="gsri_Balaclava">	
 			<Key ID="str_Balaclava_white_displayname)">
-				<Original>Balaclava (white)</Original>
-                <English>Balaclava (Combat Googles (white))</English>
-				<French>Balaclava (Hiver)</French>
+				<Original>[-GSRI-] Balaclava (white)</Original>
+                <English>[-GSRI-] Balaclava (Combat Googles (white))</English>
+				<French>[-GSRI-] Balaclava (Hiver)</French>
 			</Key>
 		</Container>
 		<Container name="gsri_Beanie">	
             <Key ID="str_Beanie_white_displayname)">
-				<Original>Beanie (white)</Original>
-                <English>Beanie (white)</English>
-				<French>Bonnet (Hiver)</French>
+				<Original>[-GSRI-] Beanie (white)</Original>
+                <English>[-GSRI-] Beanie (white)</English>
+				<French>[-GSRI-] Bonnet (Hiver)</French>
 			</Key>
 		</Container>
 	</Package>
