@@ -45,7 +45,7 @@ class CfgVehicles
 		picture = "\fr\gsri\backpacks\ui\icon_gsri_radiobag_ca.paa";
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[]={"\fr\gsri\backpacks\Data\gsri_radiobag_co.paa"};
-		maximumLoad = 160;
+		maximumLoad = 240;
 		mass = 80;
 	};
 	class GSRI_TacticalPack : Bag_Base
