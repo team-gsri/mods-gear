@@ -21,6 +21,7 @@ class CfgWeapons
 	};
 	class GSRI_vest_carrier_lite : Vest_Camo_Base
 	{
+		author="$STR_GSRI_VESTS_AUTHOR";
 		scope = 2;
 		displayName = "$STR_GSRI_VESTS_CARRIER_LITE";
 		picture = "\fr\gsri\vests\UI\icon_gsri_vest_carrier_lite_ca.paa";
@@ -64,6 +65,7 @@ class CfgWeapons
 
 	class GSRI_vest_carrier : Vest_Camo_Base
 	{
+		author="$STR_GSRI_VESTS_AUTHOR";
 		scope = 2;
 		displayName = "$STR_GSRI_VESTS_CARRIER";
 		picture = "\fr\gsri\vests\UI\icon_gsri_vest_carrier_ca.paa";
@@ -107,6 +109,7 @@ class CfgWeapons
 
 	class GSRI_vest_modular : Vest_Camo_Base
 	{
+		author="$STR_GSRI_VESTS_AUTHOR";
 		scope = 2;
 		displayName = "$STR_GSRI_VESTS_MODULAR";
 		picture = "\fr\gsri\vests\UI\icon_gsri_vest_modular_ca.paa";
@@ -150,6 +153,7 @@ class CfgWeapons
 
 	class GSRI_vest_ga_carrier : Vest_Camo_Base
 	{
+		author="$STR_GSRI_VESTS_AUTHOR";
 		scope = 2;
 		displayName = "$STR_GSRI_VESTS_GA_CARRIER";
 		picture = "\fr\gsri\vests\UI\icon_gsri_vest_ga_carrier_ca.paa";
@@ -199,6 +203,7 @@ class CfgWeapons
 
 	class GSRI_vest_ga_carrier_lite : Vest_Camo_Base
 	{
+		author="$STR_GSRI_VESTS_AUTHOR";
 		scope = 2;
 		displayName = "$STR_GSRI_VESTS_GA_CARRIER_LITE";
 		picture = "\fr\gsri\vests\UI\icon_gsri_vest_ga_carrier_lite_ca.paa";
