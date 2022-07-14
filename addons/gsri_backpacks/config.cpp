@@ -6,7 +6,8 @@ class CfgPatches {
 		requiredVersion=0.1;
 		requiredAddons[] = {
 			"A3_Weapons_F",
-			"A3_Supplies_F_Enoch"
+			"A3_Supplies_F_Enoch",
+			"tfar_core"
 		};
 	};
 };
@@ -45,8 +46,13 @@ class CfgVehicles
 		picture = "\fr\gsri\backpacks\ui\icon_gsri_radiobag_ca.paa";
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[]={"\fr\gsri\backpacks\Data\gsri_radiobag_co.paa"};
-		maximumLoad = 240;
-		mass = 80;
+		maximumLoad = 220;
+		mass = 110;
+		tf_HasLRradio = 1;
+        tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+        tf_encryptionCode = "tf_west_radio_code";
+        tf_dialog = "rt1523g_radio_dialog";
+        tf_subtype = "digital_lr";
 	};
 	class GSRI_TacticalPack : Bag_Base
 	{
