@@ -6,7 +6,8 @@ class CfgPatches {
 		requiredVersion=0.1;
 		requiredAddons[] = {
 			"A3_Characters_F_EXP", 
-			"A3_Characters_F"
+			"A3_Characters_F",
+			"A3_Characters_F_Enoch"
 		};
 	};
 };
@@ -71,6 +72,43 @@ class CfgVehicles {
 			"a3\characters_f\common\data\basicbody.rvmat"
 		};
 	};
+	class GSRI_gorka_camo_U: B_Soldier_F {
+		faction="BLU_F";
+		modelsides[]={3,2,1,0};
+		displayName="$STR_GSRI_GORKA_CAMO";
+		model="\A3\Characters_F_Enoch\Uniforms\Gorka_01_F.p3d";
+		uniformClass="GSRI_gorka_camo";
+		hiddenSelections[] = {"camo_1","camo_2","insignia"};
+		hiddenSelectionsTextures[] = {"\fr\gsri\uniforms\Data\gsri_gorka_camo_co.paa"};
+		hiddenSelectionsMaterials[] = {"\fr\gsri\uniforms\Data\gsri_gorka.rvmat"};
+		linkedItems[] = {};
+		respawnLinkedItems[] = {};
+		weapons[] = {};
+		respawnWeapons[] = {};
+		magazines[] = {};
+		respawnMagazines[] = {};
+		items[] = {};
+		respawnItems[] = {};
+	};
+	class GSRI_gorka_green_U: B_Soldier_F {
+		faction="BLU_F";
+		modelsides[]={3,2,1,0};
+		displayName="$STR_GSRI_GORKA_GREEN"
+		model="\A3\Characters_F_Enoch\Uniforms\Gorka_01_F.p3d";
+		uniformClass="GSRI_gorka_green";
+		hiddenSelections[] = {"camo_1","camo_2","insignia"};
+		hiddenSelectionsTextures[] = {"\fr\gsri\uniforms\Data\gsri_gorka_green_co.paa"};
+		hiddenSelectionsMaterials[] = {"\fr\gsri\uniforms\Data\gsri_gorka.rvmat"};
+		linkedItems[] = {};
+		respawnLinkedItems[] = {};
+		weapons[] = {};
+		respawnWeapons[] = {};
+		magazines[] = {};
+		respawnMagazines[] = {};
+		items[] = {};
+		respawnItems[] = {};
+	};
+
 };	
 class cfgWeapons {
 	class ItemCore;
@@ -138,6 +176,38 @@ class cfgWeapons {
 		class ItemInfo: UniformItem {
 			uniformModel="-";
 			uniformClass="GSRI_shirt_camo_U";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class GSRI_gorka_camo: Uniform_Base {
+		author="$STR_GSRI_UNIFORMS_AUTHOR";
+		scope=2;
+		displayName="$STR_GSRI_GORKA_CAMO";
+		picture="\fr\gsri\uniforms\UI\icon_gsri_uniform.paa";
+		modelsides[]={3,2,1,0};
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\fr\gsri\uniforms\Data\gsri_gorka_camo_co.paa"};
+		class ItemInfo: UniformItem {
+			uniformModel="-";
+			uniformClass="GSRI_gorka_camo_U";
+			containerClass="Supply50";
+			mass=25;
+		};
+	};
+	class GSRI_gorka_green: Uniform_Base {
+		author="$STR_GSRI_UNIFORMS_AUTHOR";
+		scope=2;
+		displayName="$STR_GSRI_GORKA_GREEN";
+		picture="\fr\gsri\uniforms\UI\icon_gsri_uniform.paa";
+		modelsides[]={3,2,1,0};
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\fr\gsri\uniforms\Data\gsri_gorka_green_co.paa"};
+		class ItemInfo: UniformItem {
+			uniformModel="-";
+			uniformClass="GSRI_gorka_green_U";
 			containerClass="Supply50";
 			mass=25;
 		};

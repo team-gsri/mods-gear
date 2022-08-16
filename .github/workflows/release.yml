@@ -30,8 +30,8 @@ jobs:
       with:
         source: 'addons/gsri_backpacks'
         target: 'addons'
-        includes: '*.xml'
-        flags: '-clear'
+        includes: '*.paa;*.xml;*.rvmat'
+        flags: '"-clear","-prefix=fr\gsri\backpacks"'
 
     - name: Build GSRI Flags
       uses: team-gsri/actions-addon-builder@master
@@ -39,15 +39,15 @@ jobs:
         source: 'addons/gsri_flags'
         target: 'addons'
         includes: '*.paa;*.xml'
-        flags: '"-clear","-prefix=fr/gsri/flags"'
+        flags: '"-clear","-prefix=fr\gsri\flags"'
 
     - name: Build GSRI Headgear
       uses: team-gsri/actions-addon-builder@master
       with:
         source: 'addons/gsri_headgear'
         target: 'addons'
-        includes: '*.paa;*.xml'
-        flags: '"-clear","-prefix=fr/gsri/headgear"'
+        includes: '*.paa;*.xml;*.rvmat'
+        flags: '"-clear","-prefix=fr\gsri\headgear"'
 
     - name: Build GSRI Radio
       uses: team-gsri/actions-addon-builder@master
@@ -78,8 +78,8 @@ jobs:
       with:
         source: 'addons/gsri_vests'
         target: 'addons'
-        includes: '*.xml'
-        flags: '-clear'
+        includes: '*.paa;*.xml'
+        flags: '"-clear","-prefix=fr\gsri\vests"'
 
     - name: Upload pbo files
       uses: actions/upload-artifact@v2

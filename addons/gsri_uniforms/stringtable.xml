@@ -28,6 +28,14 @@
 				<Original>[-GSRI-] Combat uniform (camo shirt)</Original>
 				<French>[-GSRI-] Tenue de combat (shirt camo)</French>
 			</Key>
+			<Key ID="STR_GSRI_GORKA_CAMO">
+				<Original>[-GSRI-] Gorka (camo)</Original>
+				<French>[-GSRI-] Gorka (camo)</French>
+			</Key>
+			<Key ID="STR_GSRI_GORKA_GREEN">
+				<Original>[-GSRI-] Gorka (green)</Original>
+				<French>[-GSRI-] Gorka (vert)</French>
+			</Key>
 		</Container>
 	</Package>
 </Project>
