@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="gsri_radio">
+	<Package name="various">
+		<Container name="GSRI_radio_common">
+			<Key ID="STR_GSRI_radio_obsolete_displayName">
+				<Original>OBSOLETE, SWITCH TO NEW ITEM</Original>
+				<English>OBSOLETE, SWITCH TO NEW ITEM</English>
+				<French>OBSOLETE, UTILISEZ LE NOUVEL ITEM</French>
+			</Key>
+		</Container>
+		<Container name="GSRI_backpack_A">
+			<Key ID="STR_GSRI_backpack_A_LR_displayName">
+				<Original>[-GSRI-] 5.11 Kitbag (RT-1523G radio)</Original>
+				<English>[-GSRI-] 5.11 Kitbag (RT-1523G radio)</English>
+				<French>[-GSRI-] Sac 5.11 (radio RT-1523G)</French>
+			</Key>
+		</Container>
+		<Container name="GSRI_backpack_B">
+			<Key ID="STR_GSRI_backpack_B_LR_displayName">
+				<Original>[-GSRI-] Assault Pack (RT-1523G radio)</Original>
+				<English>[-GSRI-] Assault Pack (RT-1523G radio)</English>
+				<French>[-GSRI-] Paquetage d'assaut (radio RT-1523G)</French>
+			</Key>
+		</Container>
+	</Package>
+</Project>
