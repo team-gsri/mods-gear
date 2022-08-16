@@ -63,7 +63,7 @@ jobs:
         source: 'addons/gsri_uniforms'
         target: 'addons'
         includes: '*.paa;*.xml;*.rvmat'
-        flags: '"-clear","-prefix=fr/gsri/uniforms"'
+        flags: '"-clear","-prefix=fr\gsri\uniforms"'
 
     - name: Build GSRI Vanilla Compat
       uses: team-gsri/actions-addon-builder@master
