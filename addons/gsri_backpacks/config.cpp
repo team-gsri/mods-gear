@@ -1,5 +1,5 @@
 class CfgPatches {
-	class gsri_bags	{
+	class gsri_backpacks	{
 		author="$STR_GSRI_BACKPACKS_AUTHOR";
 		units[]={};
 		weapons[]={};
