@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Project name="GSRI-Locker">
+    <Package name="Locker_preslots">
+        <Key ID="STR_GSRI_locker_getPreslotTitle">
+            <Original>Preslot applied</Original>
+            <English>Preslot applied</English>
+            <French>Preslot appliqué</French>
+        </Key>
+        <Key ID="STR_GSRI_locker_preslotMain">
+            <Original>Preslots</Original>
+            <English>Preslots</English>
+            <French>Preslots</French>
+        </Key>
+        <Key ID="STR_GSRI_locker_gearAsOperator">
+            <Original>Operator outfit</Original>
+            <English>Operator outfit</English>
+            <French>Tenue d'opérateur</French>
+        </Key>
+        <Key ID="STR_GSRI_locker_gearAsTad">
+            <Original>Autorifleman outfit</Original>
+            <English>Autorifleman outfit</English>
+            <French>Tenue de Tireur Appui Direct (TAD)</French>
+        </Key>
+        <Key ID="STR_GSRI_locker_gearAsMedic">
+            <Original>Medic outfit</Original>
+            <English>Medic outfit</English>
+            <French>Tenue de médecin</French>
+        </Key>
+        <Key ID="STR_GSRI_locker_gearAsRegular">
+            <Original>Regular fatigues</Original>
+            <English>Regular fatigues</English>
+            <French>Tenue régulière</French>
+        </Key>
+        <Key ID="STR_GSRI_locker_gearAsAbl">
+            <Original>Light anti-tank outfit</Original>
+            <English>Light anti-tank outfit</English>
+            <French>Tenue d'Anti-Blindé Léger (ABL)</French>
+        </Key>
+    </Package>
+    <Package name="Locker_arsenal">
+        <Key ID="STR_GSRI_locker_arsenalMain">
+            <Original>Arsenal</Original>
+            <English>Arsenal</English>
+            <French>Arsenal</French>
+        </Key>
+        <Key ID="STR_GSRI_locker_openArsenalBI">
+            <Original>Full BI arsenal</Original>
+            <English>Full BI arsenal</English>
+            <French>Arsenal BI complet</French>
+        </Key>
+        <Key ID="STR_GSRI_locker_openArsenalACE">
+            <Original>Full ACE arsenal</Original>
+            <English>Full ACE arsenal</English>
+            <French>Arsenal ACE complet</French>
+        </Key>
+    </Package>
+    <Package name="Locker_medical">
+        <Key ID="STR_GSRI_locker_medicalMain">
+            <Original>Medical skills</Original>
+            <English>Medical skills</English>
+            <French>Compétences médicales</French>
+        </Key>
+        <Key ID="STR_GSRI_locker_medicalNoMed">
+            <Original>Not trained</Original>
+            <English>Not trained</English>
+            <French>Non entraîné</French>
+        </Key>
+        <Key ID="STR_GSRI_locker_medicalDoctor">
+            <Original>Doctor</Original>
+            <English>Doctor</English>
+            <French>Médecin</French>
+        </Key>
+        <Key ID="STR_GSRI_locker_nowDoctor">
+            <Original>You are now a doctor</Original>
+            <English>You are now a doctor</English>
+            <French>Vous êtes à présent médecin</French>
+        </Key>
+        <Key ID="STR_GSRI_locker_nowDoctor_description">
+            <Original>Advanced medical treatments are available.</Original>
+            <English>Advanced medical treatments are available.</English>
+            <French>Les traitements médicaux avancés sont disponibles.</French>
+        </Key>
+        <Key ID="STR_GSRI_locker_nowNoMed">
+            <Original>You are now untrained</Original>
+            <English>You are now untrained</English>
+            <French>Vous êtes à présent non-entraîné</French>
+        </Key>
+        <Key ID="STR_GSRI_locker_nowNoMed_description">
+            <Original>Only basic medical treatments are available.</Original>
+            <English>Only basic medical treatments are available.</English>
+            <French>Seuls les traitements médicaux basiques sont disponibles.</French>
+        </Key>
+    </Package>
+</Project>

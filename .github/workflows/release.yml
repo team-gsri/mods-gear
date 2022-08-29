@@ -83,6 +83,14 @@ jobs:
         includes: '*.paa;*.xml'
         flags: '"-clear","-prefix=fr\gsri\vests"'
 
+    - name: Build GSRI Lockers
+      uses: team-gsri/actions-build-addon@0.1.1
+      with:
+        source: 'addons/gsri_lockers'
+        target: 'addons'
+        prefix: 'fr\gsri\lockers'
+
+
     - name: Upload pbo files
       uses: actions/upload-artifact@v2
       with:
