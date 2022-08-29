@@ -36,3 +36,4 @@ player addHeadgear "GSRI_helmet_modular_advanced";
 player addGoggles "G_Balaclava_blk";
 player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
+["GSRI_locker_getPreslot", [localize "STR_GSRI_locker_gearAsMedic"]] call BIS_fnc_showNotification;

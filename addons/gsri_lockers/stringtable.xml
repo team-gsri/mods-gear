@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Project name="GSRI-Locker">
     <Package name="Locker_preslots">
+        <Key ID="STR_GSRI_locker_getPreslotTitle">
+            <Original>Preslot applied</Original>
+            <English>Preslot applied</English>
+            <French>Preslot appliqué</French>
+        </Key>
         <Key ID="STR_GSRI_locker_preslotMain">
             <Original>Preslots</Original>
             <English>Preslots</English>

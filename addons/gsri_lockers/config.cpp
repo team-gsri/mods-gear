@@ -32,4 +32,10 @@ class CfgNotifications {
         description = "%3";
         duration = 5;
     };
+    class GSRI_locker_getPreslot {
+        title = "$STR_GSRI_locker_getPreslotTitle";
+        iconPicture = "\A3\ui_f\data\igui\cfg\simpleTasks\types\armor_ca.paa";
+        description = "%1";
+        duration = 5;
+    };
 };

@@ -29,3 +29,4 @@ player addHeadgear "milgp_h_airframe_01_RGR";
 player addGoggles "G_Balaclava_blk";
 player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
+["GSRI_locker_getPreslot", [localize "STR_GSRI_locker_gearAsOperator"]] call BIS_fnc_showNotification;
