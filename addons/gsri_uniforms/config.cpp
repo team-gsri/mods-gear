@@ -31,6 +31,7 @@ class CfgVehicles {
 		respawnMagazines[] = {};
 		items[] = {};
 		respawnItems[] = {};
+		scope=1;
 	};
 	class GSRI_uniform_raised_collar_U: GSRI_uniform_U {
 		modelsides[]={3,2,1,0};
@@ -89,6 +90,7 @@ class CfgVehicles {
 		respawnMagazines[] = {};
 		items[] = {};
 		respawnItems[] = {};
+		scope=1;
 	};
 	class GSRI_gorka_green_U: B_Soldier_F {
 		faction="BLU_F";
@@ -107,6 +109,7 @@ class CfgVehicles {
 		respawnMagazines[] = {};
 		items[] = {};
 		respawnItems[] = {};
+		scope=1;
 	};
 
 };	
