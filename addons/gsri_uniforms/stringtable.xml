@@ -7,35 +7,5 @@
 				<French>[-GSRI-] PhileasLX pour www.gsri.team</French>
 			</Key>
 		</Container>
-		<Container name="Uniform names">
-			<Key ID="STR_GSRI_UNIFORM_BASE">
-				<Original>[-GSRI-] Combat uniform</Original>
-				<French>[-GSRI-] Tenue de combat</French>
-			</Key>
-			<Key ID="STR_GSRI_UNIFORM_ROLLED_SLEEVES">
-				<Original>[-GSRI-] Combat uniform (rolled sleeves)</Original>
-				<French>[-GSRI-] Tenue de combat (manches remontées)</French>
-			</Key>
-			<Key ID="STR_GSRI_UNIFORM_RAISED_COLLAR">
-				<Original>[-GSRI-] Combat uniform (raised collar)</Original>
-				<French>[-GSRI-] Tenue de combat (col relevé)</French>
-			</Key>
-			<Key ID="STR_GSRI_SHIRT_GREEN">
-				<Original>[-GSRI-] Combat uniform (green shirt)</Original>
-				<French>[-GSRI-] Tenue de combat (shirt vert)</French>
-			</Key>
-			<Key ID="STR_GSRI_SHIRT_CAMO">
-				<Original>[-GSRI-] Combat uniform (camo shirt)</Original>
-				<French>[-GSRI-] Tenue de combat (shirt camo)</French>
-			</Key>
-			<Key ID="STR_GSRI_GORKA_CAMO">
-				<Original>[-GSRI-] Gorka (camo)</Original>
-				<French>[-GSRI-] Gorka (camo)</French>
-			</Key>
-			<Key ID="STR_GSRI_GORKA_GREEN">
-				<Original>[-GSRI-] Gorka (green)</Original>
-				<French>[-GSRI-] Gorka (vert)</French>
-			</Key>
-		</Container>
 	</Package>
 </Project>

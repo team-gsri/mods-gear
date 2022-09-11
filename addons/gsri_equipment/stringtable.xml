@@ -235,4 +235,43 @@
 			</Key>
 		</Container>
 	</Package>
+	<Package name="Uniforms">
+		<Container name="Uniforms names">
+			<Key ID="STR_GSRI_UNIFORMS_BASE">
+				<Original>[-GSRI-] Combat uniform</Original>
+				<English>[-GSRI-] Combat uniform</English>
+				<French>[-GSRI-] Tenue de combat</French>
+			</Key>
+			<Key ID="STR_GSRI_UNIFORMS_ROLLED_SLEEVES">
+				<Original>[-GSRI-] Combat uniform (rolled sleeves)</Original>
+				<English>[-GSRI-] Combat uniform (rolled sleeves)</English>
+				<French>[-GSRI-] Tenue de combat (manches remontées)</French>
+			</Key>
+			<Key ID="STR_GSRI_UNIFORMS_RAISED_COLLAR">
+				<Original>[-GSRI-] Combat uniform (raised collar)</Original>
+				<English>[-GSRI-] Combat uniform (raised collar)</English>
+				<French>[-GSRI-] Tenue de combat (col relevé)</French>
+			</Key>
+			<Key ID="STR_GSRI_UNIFORMS_TSHIRT_CAMO">
+				<Original>[-GSRI-] Combat uniform (t-shirt, camo)</Original>
+				<English>[-GSRI-] Combat uniform (t-shirt, camo)</English>
+				<French>[-GSRI-] Tenue de combat (t-shirt, camouflage)</French>
+			</Key>
+			<Key ID="STR_GSRI_UNIFORMS_TSHIRT_GREEN">
+				<Original>[-GSRI-] Combat uniform (t-shirt, green)</Original>
+				<English>[-GSRI-] Combat uniform (t-shirt, green)</English>
+				<French>[-GSRI-] Tenue de combat (t-shirt, vert)</French>
+			</Key>
+			<Key ID="STR_GSRI_UNIFORMS_GORKA_CAMO">
+				<Original>[-GSRI-] Gorka (camo)</Original>
+				<English>[-GSRI-] Gorka (camo)</English>
+				<French>[-GSRI-] Gorka (camouflage)</French>
+			</Key>
+			<Key ID="STR_GSRI_UNIFORMS_GORKA_GREEN">
+				<Original>[-GSRI-] Gorka (green)</Original>
+				<English>[-GSRI-] Gorka (green)</English>
+				<French>[-GSRI-] Gorka (verte)</French>
+			</Key>
+		</Container>
+	</Package>
 </Project>

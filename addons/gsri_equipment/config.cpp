@@ -14,6 +14,9 @@ class CfgPatches {
 		weapons[]={};
 		requiredVersion=0.1;
 		requiredAddons[] = {
+			"A3_Characters_F_EXP", 
+			"A3_Characters_F",
+			"A3_Characters_F_Enoch",
 			"A3_Weapons_F",
 			"A3_Supplies_F_Enoch",
 			"tfar_core"
@@ -23,10 +26,12 @@ class CfgPatches {
 
 class CfgVehicles {
 	#include "backpacks.hpp"
+	#include "uniforms.hpp"
 };
 
 class CfgWeapons {
     #include "headgear.hpp"
+    #include "uniformItems.hpp"
 };
 
 class CfgGlasses {
