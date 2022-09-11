@@ -7,126 +7,12 @@
 				<French>[-GSRI-] Seenri pour www.gsri.team</French>
 			</Key>
 		</Container>
-		<Container name="GSRI_beret">
-			<Key ID="STR_GSRI_BERET">
-				<Original>[-GSRI-] Beret</Original>
-				<English>[-GSRI-] Beret</English>
-				<French>[-GSRI-] Béret</French>
-			</Key>
-		</Container>
-		<Container name="gsri_Balaclava_Combat_Googles">
-			<Key ID="STR_BALACLAVA_COMBAT_GOOGLES_WHITE">
-				<Original>[-GSRI-] White Balaclava (Combat Googles)</Original>
-				<English>[-GSRI-] White Balaclava (Combat Googles)</English>
-				<French>[-GSRI-] Hiver Balaclava (Masque de Combat)</French>
-			</Key>
-		</Container>
-		<Container name="gsri_Balaclava">	
-			<Key ID="STR_BALACLAVA_WHITE)">
-				<Original>[-GSRI-] White Balaclava </Original>
-                <English>[-GSRI-] White Balaclava (Combat Googles)</English>
-				<French>[-GSRI-] Hiver Balaclava</French>
-			</Key>
-		</Container>
-		<Container name="gsri_Beanie">	
-            <Key ID="STR_BEANIE_WHITE">
-				<Original>[-GSRI-] Beanie (white)</Original>
-                <English>[-GSRI-] Beanie (white)</English>
-				<French>[-GSRI-] Bonnet (Hiver)</French>
-			</Key>
-		</Container>
 	</Package>
 	<Package name="gsri_helmets">
 		<Container name="Metadata">
 			<Key ID="STR_GSRI_HELMETS_AUTHOR">
 				<Original>[-GSRI-] Phileas for www.gsri.team</Original>
 				<French>[-GSRI-] Phileas pour www.gsri.team</French>
-			</Key>
-		</Container>
-		<Container name="Helmet names">
-			<Key ID="STR_GSRI_HELMET">
-				<Original>[-GSRI-] Combat Helmet</Original>
-				<French>[-GSRI-] Casque de combat</French>
-			</Key>
-			<Key ID="STR_GSRI_HELMET_SPEC">
-				<Original>[-GSRI-] Enhanced Combat Helmet</Original>
-				<French>[-GSRI-] Casque de combat amélioré</French>
-			</Key>
-			<Key ID="STR_GSRI_HELMET_LIGHT">
-				<Original>[-GSRI-] Light Combat Helmet</Original>
-				<French>[-GSRI-] Casque léger de combat</French>
-			</Key>
-			<Key ID="STR_GSRI_HELMET_MODULAR">
-				<Original>[-GSRI-] Modular Helmet</Original>
-				<French>[-GSRI-] Casque modulable</French>
-			</Key>
-			<Key ID="STR_GSRI_HELMET_MODULAR_ADVANCED">
-				<Original>[-GSRI-] Advanced Modular Helmet</Original>
-				<French>[-GSRI-] Casque modulable avancé</French>
-			</Key>
-		</Container>
-	</Package>
-	<Package name="gsri_facewears">
-		<Container name="Facewear names">
-			<Key ID="STR_GSRI_BANDMASK_CAMO">
-				<Original>[-GSRI-] Bandana (camo)</Original>
-				<French>[-GSRI-] Bandana (camo)</French>
-			</Key>
-			<Key ID="STR_GSRI_BANDMASK_LIGHT">
-				<Original>[-GSRI-] Bandana (light)</Original>
-				<French>[-GSRI-] Bandana (clair)</French>
-			</Key>
-			<Key ID="STR_GSRI_BANDMASK_MED">
-				<Original>[-GSRI-] Bandana (medium)</Original>
-				<French>[-GSRI-] Bandana (moyen)</French>
-			</Key>
-			<Key ID="STR_GSRI_BANDMASK_DARK">
-				<Original>[-GSRI-] Bandana (dark)</Original>
-				<French>[-GSRI-] Bandana (foncé)</French>
-			</Key>
-			<Key ID="STR_GSRI_BANDMASK_GLASSES_CAMO">
-				<Original>[-GSRI-] Bandana Glasses (camo)</Original>
-				<French>[-GSRI-] Bandana Lunettes (camo)</French>
-			</Key>
-			<Key ID="STR_GSRI_BANDMASK_GLASSES_LIGHT">
-				<Original>[-GSRI-] Bandana Glasses (light)</Original>
-				<French>[-GSRI-] Bandana Lunettes (clair)</French>
-			</Key>
-			<Key ID="STR_GSRI_BANDMASK_GLASSES_MED">
-				<Original>[-GSRI-] Bandana Glasses (medium)</Original>
-				<French>[-GSRI-] Bandana Lunettes (moyen)</French>
-			</Key>
-			<Key ID="STR_GSRI_BANDMASK_GLASSES_DARK">
-				<Original>[-GSRI-] Bandana Glasses (dark)</Original>
-				<French>[-GSRI-] Bandana Lunettes (foncé)</French>
-			</Key>
-			<Key ID="STR_GSRI_BALACLAVA_LIGHT">
-				<Original>[-GSRI-] Balaclava (light)</Original>
-				<French>[-GSRI-] Balaclava (clair)</French>
-			</Key>
-			<Key ID="STR_GSRI_BALACLAVA_MED">
-				<Original>[-GSRI-] Balaclava (medium)</Original>
-				<French>[-GSRI-] Balaclava (moyen)</French>
-			</Key>
-			<Key ID="STR_GSRI_BALACLAVA_DARK">
-				<Original>[-GSRI-] Balaclava (dark)</Original>
-				<French>[-GSRI-] Balaclava (foncé)</French>
-			</Key>
-			<Key ID="STR_GSRI_BALACLAVA_V2_CAMO">
-				<Original>[-GSRI-] Balaclava V2 (camo)</Original>
-				<French>[-GSRI-] Balaclava V2 (camo)</French>
-			</Key>
-			<Key ID="STR_GSRI_BALACLAVA_V2_LIGHT">
-				<Original>[-GSRI-] Balaclava V2 (light)</Original>
-				<French>[-GSRI-] Balaclava V2 (clair)</French>
-			</Key>
-			<Key ID="STR_GSRI_BALACLAVA_V2_MED">
-				<Original>[-GSRI-] Balaclava V2 (medium)</Original>
-				<French>[-GSRI-] Balaclava V2 (moyen)</French>
-			</Key>
-			<Key ID="STR_GSRI_BALACLAVA_V2_DARK">
-				<Original>[-GSRI-] Balaclava V2 (dark)</Original>
-				<French>[-GSRI-] Balaclava V2 (foncé)</French>
 			</Key>
 		</Container>
 	</Package>

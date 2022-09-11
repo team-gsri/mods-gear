@@ -7,28 +7,6 @@
 				<French>[-GSRI-] PhileasLX pour www.gsri.team</French>
 			</Key>
 		</Container>
-		<Container name="Backpacks names">
-			<Key ID="STR_GSRI_BACKPACKS_ASSAULTPACK">
-				<Original>[-GSRI-] Assault Pack</Original>
-				<French>[-GSRI-] Paquetage d'assaut</French>
-			</Key>
-			<Key ID="STR_GSRI_BACKPACKS_KITBAG">
-				<Original>[-GSRI-] Kitbag</Original>
-				<French>[-GSRI-] Paquetage de terrain</French>
-			</Key>
-			<Key ID="STR_GSRI_BACKPACKS_RADIOBAG">
-				<Original>[-GSRI-] Radio Pack</Original>
-				<French>[-GSRI-] Sac à dos radio</French>
-			</Key>
-			<Key ID="STR_GSRI_BACKPACKS_TACTICALPACK">
-				<Original>[-GSRI-] Tactical Backpack</Original>
-				<French>[-GSRI-] Sac à dos tactique</French>
-			</Key>
-			<Key ID="STR_GSRI_BACKPACKS_CARRYALL">
-				<Original>[-GSRI-] Carryall Backpack</Original>
-				<French>[-GSRI-] Sac à dos multifonctions</French>
-			</Key>
-		</Container>
 	</Package>
 	<Package name="various">
 		<Container name="GSRI_backpacks_common">
