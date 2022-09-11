@@ -274,4 +274,43 @@
 			</Key>
 		</Container>
 	</Package>
+	<Package name="Vests">
+		<Container name="Vests names">
+			<Key ID="STR_GSRI_VESTS_CARRIER">
+				<Original>[-GSRI-] Light carrier (hydration pouch)</Original>
+				<English>[-GSRI-] Light carrier (hydration pouch)</English>
+				<French>[-GSRI-] Gilet léger (poche d'hydratation)</French>
+			</Key>
+			<Key ID="STR_GSRI_VESTS_CARRIER_LIGHT">
+				<Original>[-GSRI-] Light carrier</Original>
+				<English>[-GSRI-] Light carrier</English>
+				<French>[-GSRI-] Gilet léger</French>
+			</Key>
+			<Key ID="STR_GSRI_VESTS_MODULAR">
+				<Original>[-GSRI-] Heavy carrier</Original>
+				<English>[-GSRI-] Heavy carrier</English>
+				<French>[-GSRI-] Gilet lourd</French>
+			</Key>
+			<Key ID="STR_GSRI_VESTS_MODULAR_ACCESSORIES">
+				<Original>[-GSRI-] Heavy carrier (accessories)</Original>
+				<English>[-GSRI-] Heavy carrier (accessories)</English>
+				<French>[-GSRI-] Gilet lourd (accessoires)</French>
+			</Key>
+			<Key ID="STR_GSRI_VESTS_MODULAR_REINFORCED">
+				<Original>[-GSRI-] Heavy carrier (addons, accessories)</Original>
+				<English>[-GSRI-] Heavy carrier (addons, accessories)</English>
+				<French>[-GSRI-] Gilet lourd (suppléments, accessoires)</French>
+			</Key>
+			<Key ID="STR_GSRI_VESTS_GA_CARRIER">
+				<Original>[-GSRI-] Modular carrier rig (addons)</Original>
+				<English>[-GSRI-] Modular carrier rig (addons)</English>
+				<French>[-GSRI-] Gilet modulable (suppléments)</French>
+			</Key>
+			<Key ID="STR_GSRI_VESTS_GA_CARRIER_LITE">
+				<Original>[-GSRI-] Modular carrier rig</Original>
+				<English>[-GSRI-] Modular carrier rig</English>
+				<French>[-GSRI-] Gilet modulable</French>
+			</Key>
+		</Container>
+	</Package>
 </Project>
