@@ -21,6 +21,7 @@ class GSRI_uniform: Uniform_Base {
     };
 };
 class GSRI_uniform_rolled: GSRI_uniform {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_UNIFORMS_ROLLED_SLEEVES";
     class ItemInfo: UniformItem {
         uniformModel="-";
@@ -30,6 +31,7 @@ class GSRI_uniform_rolled: GSRI_uniform {
     };
 };
 class GSRI_uniform_raised_collar: GSRI_uniform {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_UNIFORMS_RAISED_COLLAR";
     class ItemInfo: UniformItem {
         uniformModel="-";
@@ -40,6 +42,7 @@ class GSRI_uniform_raised_collar: GSRI_uniform {
 };
 
 class GSRI_shirt_camo: GSRI_uniform {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_UNIFORMS_TSHIRT_CAMO";
     picture="\fr\gsri\equipment\UI\uniforms\icon_gsri_shirt.paa";
     hiddenSelections[] = {"camo","camo2"};
@@ -51,6 +54,7 @@ class GSRI_shirt_camo: GSRI_uniform {
     };
 };
 class GSRI_shirt_green: GSRI_shirt_camo {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_UNIFORMS_TSHIRT_GREEN";
     class ItemInfo: UniformItem {
         uniformModel="-";
@@ -77,6 +81,7 @@ class GSRI_gorka_camo: Uniform_Base {
     };
 };
 class GSRI_gorka_green: GSRI_gorka_camo {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_UNIFORMS_GORKA_GREEN";
     hiddenSelectionsTextures[] = {"\fr\gsri\equipment\Data\uniforms\gsri_gorka_green_co.paa"};
     class ItemInfo: UniformItem {

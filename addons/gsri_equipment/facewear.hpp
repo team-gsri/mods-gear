@@ -16,16 +16,19 @@ class GSRI_bandMask_camo : None {
     mass=4;
 };
 class GSRI_bandMask_light : GSRI_bandMask_camo {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BANDMASK_LIGHT";
     picture = "\fr\gsri\equipment\ui\facewear\icon_gsri_bandMask_light_ca.paa";
     hiddenSelectionsTextures[]={"\fr\gsri\equipment\Data\facewear\gsri_bandMask_light_co.paa"};
 };
 class GSRI_bandMask_med : GSRI_bandMask_camo {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BANDMASK_MEDIUM";
     picture = "\fr\gsri\equipment\ui\facewear\icon_gsri_bandMask_med_ca.paa";
     hiddenSelectionsTextures[]={"\fr\gsri\equipment\Data\facewear\gsri_bandMask_med_co.paa"};
 };
 class GSRI_bandMask_dark : GSRI_bandMask_camo {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BANDMASK_DARK";
     picture = "\fr\gsri\equipment\ui\facewear\icon_gsri_bandMask_dark_ca.paa";
     hiddenSelectionsTextures[]={"\fr\gsri\equipment\Data\facewear\gsri_bandMask_dark_co.paa"};
@@ -44,16 +47,19 @@ class GSRI_bandMask_glasses_camo : None {
     mass=6;
 };
 class GSRI_bandMask_glasses_light : GSRI_bandMask_glasses_camo {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BANDMASK_GLASSES_LIGHT";
     picture = "\fr\gsri\equipment\ui\facewear\icon_gsri_bandMask_glasses_light_ca.paa";
     hiddenSelectionsTextures[] = {"\fr\gsri\equipment\Data\facewear\gsri_bandMask_light_co.paa","\fr\gsri\equipment\Data\facewear\gsri_glasses_co.paa"};
 };
 class GSRI_bandMask_glasses_med : GSRI_bandMask_glasses_camo {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BANDMASK_GLASSES_MEDIUM";
     picture = "\fr\gsri\equipment\ui\facewear\icon_gsri_bandMask_glasses_med_ca.paa";
     hiddenSelectionsTextures[] = {"\fr\gsri\equipment\Data\facewear\gsri_bandMask_med_co.paa","\fr\gsri\equipment\Data\facewear\gsri_glasses_co.paa"};
 };
 class GSRI_bandMask_glasses_dark : GSRI_bandMask_glasses_camo {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BANDMASK_GLASSES_DARK";
     picture = "\fr\gsri\equipment\ui\facewear\icon_gsri_bandMask_glasses_dark_ca.paa";
     hiddenSelectionsTextures[] = {"\fr\gsri\equipment\Data\facewear\gsri_bandMask_dark_co.paa","\fr\gsri\equipment\Data\facewear\gsri_glasses_co.paa"};
@@ -94,43 +100,51 @@ class GSRI_balaclava_med : GSRI_balaclava_white {
     hiddenSelectionsTextures[]={"\fr\gsri\equipment\Data\facewear\gsri_balaclava_med_co.paa"};
 };
 class GSRI_balaclava_med_glasses : GSRI_balaclava_white_glasses {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BALACLAVA_GREEN_GLASSES";
     picture = "\fr\gsri\equipment\ui\facewear\icon_gsri_balaclava_med_ca.paa";
     hiddenSelectionsTextures[]={"\fr\gsri\equipment\Data\facewear\gsri_balaclava_med_co.paa"};
 };
 class GSRI_balaclava_med_googles : GSRI_balaclava_white_goggles {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BALACLAVA_GREEN_GOGGLES";
     picture = "\fr\gsri\equipment\ui\facewear\icon_gsri_balaclava_med_ca.paa";
     hiddenSelectionsTextures[]={"\fr\gsri\equipment\Data\facewear\gsri_balaclava_med_co.paa"};
 };
 
 class GSRI_balaclava_light : GSRI_balaclava_white {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BALACLAVA_LIGHT";
     picture = "\fr\gsri\equipment\ui\facewear\icon_gsri_balaclava_light_ca.paa";
     hiddenSelectionsTextures[]={"\fr\gsri\equipment\Data\facewear\gsri_balaclava_light_co.paa"};
 };
 class GSRI_balaclava_light_glasses : GSRI_balaclava_white_glasses {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BALACLAVA_LIGHT_GLASSES";
     picture = "\fr\gsri\equipment\ui\facewear\icon_gsri_balaclava_light_ca.paa";
     hiddenSelectionsTextures[]={"\fr\gsri\equipment\Data\facewear\gsri_balaclava_light_co.paa"};
 };
 class GSRI_balaclava_light_googles : GSRI_balaclava_white_goggles {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BALACLAVA_LIGHT_GOGGLES";
     picture = "\fr\gsri\equipment\ui\facewear\icon_gsri_balaclava_light_ca.paa";
     hiddenSelectionsTextures[]={"\fr\gsri\equipment\Data\facewear\gsri_balaclava_light_co.paa"};
 };
 
 class GSRI_balaclava_dark : GSRI_balaclava_white {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BALACLAVA_DARK";
     picture = "\fr\gsri\equipment\ui\facewear\icon_gsri_balaclava_dark_ca.paa";
     hiddenSelectionsTextures[]={"\fr\gsri\equipment\Data\facewear\gsri_balaclava_dark_co.paa"};
 };
 class GSRI_balaclava_dark_glasses : GSRI_balaclava_white_glasses {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BALACLAVA_DARK_GLASSES";
     picture = "\fr\gsri\equipment\ui\facewear\icon_gsri_balaclava_dark_ca.paa";
     hiddenSelectionsTextures[]={"\fr\gsri\equipment\Data\facewear\gsri_balaclava_dark_co.paa"};
 };
 class GSRI_balaclava_dark_goggles : GSRI_balaclava_white_goggles {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BALACLAVA_DARK_GOGGLES";
     picture = "\fr\gsri\equipment\ui\facewear\icon_gsri_balaclava_dark_ca.paa";
     hiddenSelectionsTextures[]={"\fr\gsri\equipment\Data\facewear\gsri_balaclava_dark_co.paa"};
@@ -150,36 +164,43 @@ class GSRI_balaclava_v2_camo : None {
     mass=6;
 };
 class GSRI_balaclava_v2_camo_goggles : GSRI_balaclava_v2_camo {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BALACLAVA_V2_CAMO_GOGGLES";
     model = "\A3\Characters_F_Exp\BLUFOR\G_Balaclava_TI_G_F.p3d";
     hiddenSelections[] = {"camo1"};
 };
 class GSRI_balaclava_v2_light : GSRI_balaclava_v2_camo {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BALACLAVA_V2_LIGHT";
     picture = "\fr\gsri\equipment\ui\facewear\icon_gsri_balaclava_v2_light_ca.paa";
     hiddenSelectionsTextures[]={"\fr\gsri\equipment\Data\facewear\gsri_balaclava_v2_light_co.paa"};
 };
 class GSRI_balaclava_v2_light_goggles : GSRI_balaclava_v2_camo_goggles {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BALACLAVA_V2_LIGHT_GOGGLES";
     picture = "\fr\gsri\equipment\ui\facewear\icon_gsri_balaclava_v2_light_ca.paa";
     hiddenSelectionsTextures[]={"\fr\gsri\equipment\Data\facewear\gsri_balaclava_v2_light_co.paa"};
 };
 class GSRI_balaclava_v2_med : GSRI_balaclava_v2_camo {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BALACLAVA_V2_MEDIUM";
     picture = "\fr\gsri\equipment\ui\facewear\icon_gsri_balaclava_v2_med_ca.paa";
     hiddenSelectionsTextures[]={"\fr\gsri\equipment\Data\facewear\gsri_balaclava_v2_med_co.paa"};
 };
 class GSRI_balaclava_v2_med_goggles : GSRI_balaclava_v2_camo_goggles {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BALACLAVA_V2_MEDIUM_GOGGLES";
     picture = "\fr\gsri\equipment\ui\facewear\icon_gsri_balaclava_v2_med_ca.paa";
     hiddenSelectionsTextures[]={"\fr\gsri\equipment\Data\facewear\gsri_balaclava_v2_med_co.paa"};
 };
 class GSRI_balaclava_v2_dark : GSRI_balaclava_v2_camo {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BALACLAVA_V2_DARK";
     picture = "\fr\gsri\equipment\ui\facewear\icon_gsri_balaclava_v2_dark_ca.paa";
     hiddenSelectionsTextures[]={"\fr\gsri\equipment\Data\facewear\gsri_balaclava_v2_dark_co.paa"};
 };
 class GSRI_balaclava_v2_dark_goggles : GSRI_balaclava_v2_camo_goggles {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BALACLAVA_V2_DARK_GOGGLES";
     picture = "\fr\gsri\equipment\ui\facewear\icon_gsri_balaclava_v2_dark_ca.paa";
     hiddenSelectionsTextures[]={"\fr\gsri\equipment\Data\facewear\gsri_balaclava_v2_dark_co.paa"};

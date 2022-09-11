@@ -73,6 +73,7 @@ class GSRI_gorka_camo_U: B_Soldier_F {
     respawnItems[] = {};
 };
 class GSRI_gorka_green_U: GSRI_gorka_camo_U {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_GORKA_GREEN"
     uniformClass="GSRI_gorka_green";
     hiddenSelectionsTextures[] = {"\fr\gsri\equipment\Data\uniforms\gsri_gorka_green_co.paa"};

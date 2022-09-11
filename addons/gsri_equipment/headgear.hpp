@@ -119,6 +119,7 @@ class GSRI_helmet_modular : H_HelmetB {
 };
 
 class GSRI_helmet_modular_advanced : GSRI_helmet_modular {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName = "$STR_GSRI_HEADGEAR_HELMET_MODULAR_ACCESSORIES";
     picture = "\fr\gsri\equipment\UI\headgear\icon_gsri_helmet_modular_accessories.paa";
     model = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_headset_F.p3d";
@@ -138,6 +139,7 @@ class GSRI_helmet_modular_advanced : GSRI_helmet_modular {
 };
 
 class GSRI_helmet_modular_integral : GSRI_helmet_modular {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName = "$STR_GSRI_HEADGEAR_HELMET_MODULAR_INTEGRAL";
     picture = "\fr\gsri\equipment\UI\headgear\icon_gsri_helmet_modular_accessories.paa";
     model = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_chops_F.p3d";
