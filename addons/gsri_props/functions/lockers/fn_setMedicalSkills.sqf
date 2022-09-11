@@ -23,7 +23,7 @@ if !(_skill in [0,2]) exitWith { ["Skill level %1 unknown.", _skill] call BIS_fn
 player setVariable ["ace_medical_medicClass", _skill, true];
 
 private _notificationData = [
-	[localize "STR_GSRI_locker_nowNoMed", "\fr\gsri\lockers\ui\untrained_co.paa", localize "STR_GSRI_locker_nowNoMed_description"],
+	[localize "STR_GSRI_locker_nowNoMed", "\fr\gsri\props\UI\lockers\untrained_co.paa", localize "STR_GSRI_locker_nowNoMed_description"],
 	[localize "STR_GSRI_locker_nowDoctor", "\z\ace\addons\medical_gui\ui\cross.paa", localize "STR_GSRI_locker_nowDoctor_description"]
 ] select (_skill == 2);
 ["GSRI_locker_setMedicalSkills", _notificationData] call BIS_fnc_showNotification;

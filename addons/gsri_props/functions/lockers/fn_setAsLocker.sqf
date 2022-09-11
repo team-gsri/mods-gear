@@ -53,7 +53,7 @@ _preslotsActions pushBack (["actionAbl",localize "STR_GSRI_locker_gearAsAbl","",
 
 // Medical skills actions
 _actionMedicalMain = ["actionMedicalMain",localize "STR_GSRI_locker_medicalMain","\z\ace\addons\medical_gui\ui\cross.paa",{},{true}] call ace_interact_menu_fnc_createAction;
-_medicalActions pushBack (["actionNoMed",localize "STR_GSRI_locker_medicalNoMed","\fr\gsri\lockers\ui\untrained_co.paa",{[0] call GSRI_fnc_setMedicalSkills},{true}] call ace_interact_menu_fnc_createAction);
+_medicalActions pushBack (["actionNoMed",localize "STR_GSRI_locker_medicalNoMed","\fr\gsri\props\UI\lockers\untrained_co.paa",{[0] call GSRI_fnc_setMedicalSkills},{true}] call ace_interact_menu_fnc_createAction);
 _medicalActions pushBack (["actionDoctor",localize "STR_GSRI_locker_medicalDoctor","\z\ace\addons\medical_gui\ui\cross.paa",{[2] call GSRI_fnc_setMedicalSkills},{true}] call ace_interact_menu_fnc_createAction);
 
 // Adding tree
