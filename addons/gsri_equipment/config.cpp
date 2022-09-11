@@ -8,26 +8,26 @@
 #define TLogic			7
 
 class CfgPatches {
-	class gsri_equipment {
-		author="$STR_GSRI_BACKPACKS_AUTHOR";
-		units[]={};
-		weapons[]={};
-		requiredVersion=0.1;
-		requiredAddons[] = {
-			"A3_Characters_F",
-			"A3_Characters_F_Beta", 
-			"A3_Characters_F_Enoch",
-			"A3_Characters_F_EXP",
-			"A3_Weapons_F",
-			"A3_Supplies_F_Enoch",
-			"tfar_core"
-		};
-	};
+    class gsri_equipment {
+        author="$STR_GSRI_AUTHORS";
+        units[]={};
+        weapons[]={};
+        requiredVersion=0.1;
+        requiredAddons[] = {
+            "A3_Characters_F",
+            "A3_Characters_F_Beta", 
+            "A3_Characters_F_Enoch",
+            "A3_Characters_F_EXP",
+            "A3_Weapons_F",
+            "A3_Supplies_F_Enoch",
+            "tfar_core"
+        };
+    };
 };
 
 class CfgVehicles {
-	#include "backpacks.hpp"
-	#include "uniforms.hpp"
+    #include "backpacks.hpp"
+    #include "uniforms.hpp"
 };
 
 class CfgWeapons {
