@@ -18,9 +18,30 @@ class CfgPatches {
             "A3_Characters_F_Beta", 
             "A3_Characters_F_Enoch",
             "A3_Characters_F_EXP",
-            "A3_Weapons_F",
             "A3_Supplies_F_Enoch",
+            "A3_Weapons_F",
+            "cba_jr",
+            "cba_jam",
             "tfar_core"
+        };
+    };
+};
+
+class asdg_OpticRail1913;
+class asdg_FrontSideRail;
+
+class CfgMagazineWells {
+    class CBA_556x45_STANAG {
+        SMA_mags[] = {
+            "SMA_30Rnd_556x45_M855A1",
+            "SMA_30Rnd_556x45_M855A1_Tracer",
+            "SMA_30Rnd_556x45_M855A1_IR",
+            "SMA_30Rnd_556x45_Mk318",
+            "SMA_30Rnd_556x45_Mk318_Tracer",
+            "SMA_30Rnd_556x45_Mk318_IR",
+            "SMA_30Rnd_556x45_Mk262",
+            "SMA_30Rnd_556x45_Mk262_Tracer",
+            "SMA_30Rnd_556x45_Mk262_IR"
         };
     };
 };
@@ -31,6 +52,7 @@ class CfgVehicles {
 };
 
 class CfgWeapons {
+    #include "weapons_compat.hpp"
     #include "headgear.hpp"
     #include "uniformItems.hpp"
     #include "vests.hpp"
