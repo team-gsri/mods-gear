@@ -47,17 +47,17 @@ class CfgMagazineWells {
 };
 
 class CfgVehicles {
-    #include "backpacks.hpp"
-    #include "uniforms.hpp"
+    #include "backpacks\backpacks.hpp"
+    #include "uniforms\uniforms.hpp"
 };
 
 class CfgWeapons {
     #include "weapons_compat.hpp"
-    #include "headgear.hpp"
-    #include "uniformItems.hpp"
-    #include "vests.hpp"
+    #include "headgear\headgear.hpp"
+    #include "uniforms\uniformItems.hpp"
+    #include "vests\vests.hpp"
 };
 
 class CfgGlasses {
-    #include "facewear.hpp"
+    #include "facewear\facewear.hpp"
 };

@@ -7,9 +7,9 @@ class GSRI_vest_carrier : Vest_Camo_Base {
     author="$STR_GSRI_AUTHORS_PHILEAS";
     scope = 2;
     displayName = "$STR_GSRI_VESTS_CARRIER";
-    picture = "\fr\gsri\equipment\UI\vests\icon_gsri_vest_carrier_ca.paa";
+    picture = "\fr\gsri\equipment\vests\UI\icon_gsri_vest_carrier_ca.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
-    hiddenSelectionsTextures[] = {"\fr\gsri\equipment\Data\vests\gsri_vest_carrier_co.paa"};
+    hiddenSelectionsTextures[] = {"\fr\gsri\equipment\vests\Data\gsri_vest_carrier_co.paa"};
     descriptionShort="$STR_A3_SP_AL_III";
     class ItemInfo : ItemInfo {
         author = "$STR_GSRI_AUTHORS_PHILEAS";
@@ -43,7 +43,7 @@ class GSRI_vest_carrier : Vest_Camo_Base {
 class GSRI_vest_carrier_lite : GSRI_vest_carrier {
     author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName = "$STR_GSRI_VESTS_CARRIER_LIGHT";
-    picture = "\fr\gsri\equipment\UI\vests\icon_gsri_vest_carrier_lite_ca.paa";
+    picture = "\fr\gsri\equipment\vests\UI\icon_gsri_vest_carrier_lite_ca.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02.p3d";
     class ItemInfo : ItemInfo {
         author = "$STR_GSRI_AUTHORS_PHILEAS";
@@ -77,9 +77,9 @@ class GSRI_vest_carrier_lite : GSRI_vest_carrier {
 class GSRI_vest_modular : GSRI_vest_carrier {
     author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName = "$STR_GSRI_VESTS_MODULAR";
-    picture = "\fr\gsri\equipment\UI\vests\icon_gsri_vest_modular_ca.paa";
+    picture = "\fr\gsri\equipment\vests\UI\icon_gsri_vest_modular_ca.paa";
     model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
-    hiddenSelectionsTextures[] = {"\fr\gsri\equipment\Data\vests\gsri_vest_modular_co.paa"};
+    hiddenSelectionsTextures[] = {"\fr\gsri\equipment\vests\Data\gsri_vest_modular_co.paa"};
     descriptionShort="$STR_A3_SP_AL_IV";
     class ItemInfo : ItemInfo {
         author = "$STR_GSRI_AUTHORS_PHILEAS";
@@ -145,9 +145,9 @@ class GSRI_vest_modular_accessories : GSRI_vest_modular {
 class GSRI_vest_modular_reinforced : GSRI_vest_carrier {
     author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName = "$STR_GSRI_VESTS_MODULAR_REINFORCED";
-    picture = "\fr\gsri\equipment\UI\vests\icon_gsri_vest_modular_ca.paa";
+    picture = "\fr\gsri\equipment\vests\UI\icon_gsri_vest_modular_ca.paa";
     model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
-    hiddenSelectionsTextures[] = {"\fr\gsri\equipment\Data\vests\gsri_vest_modular_co.paa"};
+    hiddenSelectionsTextures[] = {"\fr\gsri\equipment\vests\Data\gsri_vest_modular_co.paa"};
     class ItemInfo : ItemInfo {
         author = "$STR_GSRI_AUTHORS_PHILEAS";
         uniformModel = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_heavy_F.p3d";
@@ -190,9 +190,9 @@ class GSRI_vest_modular_reinforced : GSRI_vest_carrier {
 class GSRI_vest_ga_carrier_lite : GSRI_vest_carrier {
     author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName = "$STR_GSRI_VESTS_GA_CARRIER_LITE";
-    picture = "\fr\gsri\equipment\UI\vests\icon_gsri_vest_ga_carrier_lite_ca.paa";
+    picture = "\fr\gsri\equipment\vests\UI\icon_gsri_vest_ga_carrier_lite_ca.paa";
     model = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
-    hiddenSelectionsTextures[] = {"\fr\gsri\equipment\Data\vests\gsri_vest_ga_carrier_co.paa"};
+    hiddenSelectionsTextures[] = {"\fr\gsri\equipment\vests\Data\gsri_vest_ga_carrier_co.paa"};
     descriptionShort="$STR_A3_SP_AL_II";
     class ItemInfo : ItemInfo {
         author = "$STR_GSRI_AUTHORS_PHILEAS";
@@ -226,7 +226,7 @@ class GSRI_vest_ga_carrier_lite : GSRI_vest_carrier {
 class GSRI_vest_ga_carrier : GSRI_vest_ga_carrier_lite {
     author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName = "$STR_GSRI_VESTS_GA_CARRIER";
-    picture = "\fr\gsri\equipment\UI\vests\icon_gsri_vest_ga_carrier_ca.paa";
+    picture = "\fr\gsri\equipment\vests\UI\icon_gsri_vest_ga_carrier_ca.paa";
     model = "A3\Characters_F_Beta\INDEP\equip_ia_vest02";
     class ItemInfo : ItemInfo {
         author = "$STR_GSRI_AUTHORS_PHILEAS";

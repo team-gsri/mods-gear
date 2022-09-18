@@ -7,8 +7,8 @@ class GSRI_uniform_U: B_Soldier_F {
     model="\A3\Characters_F\BLUFOR\B_Soldier_01.p3d";
     uniformClass="GSRI_uniform";
     hiddenSelections[] = {"camo","insignia"};
-    hiddenSelectionsTextures[] = {"\fr\gsri\equipment\Data\uniforms\gsri_uniform_co.paa"};
-    hiddenSelectionsMaterials[] = {"\fr\gsri\equipment\Data\uniforms\gsri_uniform.rvmat"};
+    hiddenSelectionsTextures[] = {"\fr\gsri\equipment\uniforms\Data\gsri_uniform_co.paa"};
+    hiddenSelectionsMaterials[] = {"\fr\gsri\equipment\uniforms\Data\gsri_uniform.rvmat"};
     linkedItems[] = {};
     respawnLinkedItems[] = {};
     weapons[] = {};
@@ -36,11 +36,11 @@ class GSRI_shirt_camo_U: GSRI_uniform_U {
     uniformClass="GSRI_shirt_camo";
     hiddenSelections[] = {"camo","camo2","insignia"};
     hiddenSelectionsTextures[] = {
-        "\fr\gsri\equipment\Data\uniforms\gsri_uniform_co.paa",
-        "\fr\gsri\equipment\Data\uniforms\gsri_shirt_camo_co.paa"
+        "\fr\gsri\equipment\uniforms\Data\gsri_uniform_co.paa",
+        "\fr\gsri\equipment\uniforms\Data\gsri_shirt_camo_co.paa"
     };
     hiddenSelectionsMaterials[] = {
-        "\fr\gsri\equipment\Data\uniforms\gsri_uniform.rvmat",
+        "\fr\gsri\equipment\uniforms\Data\gsri_uniform.rvmat",
         "a3\characters_f\common\data\basicbody.rvmat"
     };
 };
@@ -48,8 +48,8 @@ class GSRI_shirt_green_U: GSRI_shirt_camo_U {
     displayName="$STR_GSRI_UNIFORMS_TSHIRT_GREEN";
     uniformClass="GSRI_shirt_green";
     hiddenSelectionsTextures[] = {
-        "\fr\gsri\equipment\Data\uniforms\gsri_uniform_co.paa",
-        "\fr\gsri\equipment\Data\uniforms\gsri_shirt_green_co.paa"
+        "\fr\gsri\equipment\uniforms\Data\gsri_uniform_co.paa",
+        "\fr\gsri\equipment\uniforms\Data\gsri_shirt_green_co.paa"
     };
 };
 
@@ -61,8 +61,8 @@ class GSRI_gorka_camo_U: B_Soldier_F {
     model="\A3\Characters_F_Enoch\Uniforms\Gorka_01_F.p3d";
     uniformClass="GSRI_gorka_camo";
     hiddenSelections[] = {"camo_1","camo_2","insignia"};
-    hiddenSelectionsTextures[] = {"\fr\gsri\equipment\Data\uniforms\gsri_gorka_camo_co.paa"};
-    hiddenSelectionsMaterials[] = {"\fr\gsri\equipment\Data\uniforms\gsri_gorka.rvmat"};
+    hiddenSelectionsTextures[] = {"\fr\gsri\equipment\uniforms\Data\gsri_gorka_camo_co.paa"};
+    hiddenSelectionsMaterials[] = {"\fr\gsri\equipment\uniforms\Data\gsri_gorka.rvmat"};
     linkedItems[] = {};
     respawnLinkedItems[] = {};
     weapons[] = {};
@@ -76,5 +76,5 @@ class GSRI_gorka_green_U: GSRI_gorka_camo_U {
     author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_GORKA_GREEN"
     uniformClass="GSRI_gorka_green";
-    hiddenSelectionsTextures[] = {"\fr\gsri\equipment\Data\uniforms\gsri_gorka_green_co.paa"};
+    hiddenSelectionsTextures[] = {"\fr\gsri\equipment\uniforms\Data\gsri_gorka_green_co.paa"};
 };

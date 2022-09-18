@@ -17,16 +17,13 @@ class CfgPatches {
 
 class CfgFunctions {
     class GSRI {
-        class preslots {
-            file="fr\gsri\props\functions\preslots";
+        class lockers {
+            file="fr\gsri\props\lockers\functions";
             class getRegular {};
             class getTad {};
             class getMedic {};
             class getOperator {};
             class getAbl {};
-        };
-        class lockers {
-            file="fr\gsri\props\functions\lockers";
             class setAsLocker {};
             class setMedicalSkills {};
         };
@@ -70,28 +67,28 @@ class CfgVehicles {
 	class gsri_flags_gsri : gsri_flags_base	{
 		scope=2;
 		scopeCurator=2;
-		editorPreview="fr\gsri\props\UI\flags\flag_gsri.jpg";
+		editorPreview="\fr\gsri\props\flags\UI\flags\flag_gsri.jpg";
 		displayName="$STR_GSRI_FLAG_GSRI";
 		class EventHandlers	{
-			init="(_this select 0) setFlagTexture 'fr\gsri\props\Data\flag_gsri_CO.paa'";
+			init="(_this select 0) setFlagTexture '\fr\gsri\props\flags\Data\flag_gsri_CO.paa'";
 		};
 	};
 	class gsri_flags_fr : gsri_flags_base {
 		scope=2;
 		scopeCurator=2;
-		editorPreview="fr\gsri\props\UI\flags\flag_fr.jpg";
+		editorPreview="\fr\gsri\props\flags\UI\flags\flag_fr.jpg";
 		displayName="$STR_GSRI_FLAG_FR";
 		class EventHandlers	{
-			init="(_this select 0) setFlagTexture 'fr\gsri\props\Data\flag_fr_CO.paa'";
+			init="(_this select 0) setFlagTexture '\fr\gsri\props\flags\Data\flag_fr_CO.paa'";
 		};
 	};
 	class gsri_flags_eu : gsri_flags_base {
 		scope=2;
 		scopeCurator=2;
-		editorPreview="fr\gsri\props\UI\flags\flag_eu.jpg";
+		editorPreview="\fr\gsri\props\flags\UI\flags\flag_eu.jpg";
 		displayName="$STR_GSRI_FLAG_EU";
 		class EventHandlers	{
-			init="(_this select 0) setFlagTexture 'fr\gsri\props\Data\flag_eu_CO.paa'";
+			init="(_this select 0) setFlagTexture '\fr\gsri\props\flags\Data\flag_eu_CO.paa'";
 		};
 	};
 };
