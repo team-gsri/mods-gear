@@ -1,5 +1,5 @@
 class CfgPatches {
-  class gsri_lockers {
+  class gsri_props {
     author="www.gsri.team";
     requiredVersion=0.1;
     requiredAddons[]={
