@@ -27,69 +27,29 @@ jobs:
     - name: Checkout files
       uses: actions/checkout@v2
 
-    - name: Build GSRI Backpacks
+    - name: Build GSRI Equipment
       uses: team-gsri/actions-addon-builder@master
       with:
-        source: 'addons/gsri_backpacks'
+        source: 'addons/gsri_equipment'
         target: 'addons'
-        includes: '*.paa;*.xml;*.rvmat'
-        flags: '"-clear","-prefix=fr\gsri\backpacks"'
+        includes: '*.p3d;*.paa;*.txt;*.xml;*.sqf;*.wss;*.ogg*;.rvmat'
+        flags: '"-clear","-prefix=fr\gsri\equipment"'
 
-    - name: Build GSRI Flags
+    - name: Build GSRI Props
       uses: team-gsri/actions-addon-builder@master
       with:
-        source: 'addons/gsri_flags'
+        source: 'addons/gsri_props'
         target: 'addons'
-        includes: '*.paa;*.xml'
-        flags: '"-clear","-prefix=fr\gsri\flags"'
+        includes: '*.p3d;*.paa;*.txt;*.xml;*.sqf;*.wss;*.ogg*;.rvmat'
+        flags: '"-clear","-prefix=fr\gsri\props"'
 
-    - name: Build GSRI Headgear
+    - name: Build GSRI Legacy configs
       uses: team-gsri/actions-addon-builder@master
       with:
-        source: 'addons/gsri_headgear'
+        source: 'addons/gsri_legacy'
         target: 'addons'
-        includes: '*.paa;*.xml;*.rvmat'
-        flags: '"-clear","-prefix=fr\gsri\headgear"'
-
-    - name: Build GSRI Radio
-      uses: team-gsri/actions-addon-builder@master
-      with:
-        source: 'addons/gsri_radio'
-        target: 'addons'
-        includes: '*.xml'
-        flags: '-clear'
-        
-    - name: Build GSRI Uniforms
-      uses: team-gsri/actions-addon-builder@master
-      with:
-        source: 'addons/gsri_uniforms'
-        target: 'addons'
-        includes: '*.paa;*.xml;*.rvmat'
-        flags: '"-clear","-prefix=fr\gsri\uniforms"'
-
-    - name: Build GSRI Vanilla Compat
-      uses: team-gsri/actions-addon-builder@master
-      with:
-        source: 'addons/gsri_vanilla_compat'
-        target: 'addons'
-        includes: '*.xml'
-        flags: '-clear'
-
-    - name: Build GSRI Vests
-      uses: team-gsri/actions-addon-builder@master
-      with:
-        source: 'addons/gsri_vests'
-        target: 'addons'
-        includes: '*.paa;*.xml'
-        flags: '"-clear","-prefix=fr\gsri\vests"'
-
-    - name: Build GSRI Lockers
-      uses: team-gsri/actions-build-addon@0.1.1
-      with:
-        source: 'addons/gsri_lockers'
-        target: 'addons'
-        prefix: 'fr\gsri\lockers'
-
+        includes: '*.p3d;*.paa;*.txt;*.xml;*.sqf;*.wss;*.ogg*;.rvmat'
+        flags: '"-clear","-prefix=fr\gsri\legacy"'
 
     - name: Upload pbo files
       uses: actions/upload-artifact@v2

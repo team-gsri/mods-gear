@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="gsri_equipment">
+    <Package name="Metadata">
+        <Container name="Authors">
+            <Key ID="STR_GSRI_AUTHORS">
+                <Original>www.gsri.team</Original>
+                <English>www.gsri.team</English>
+                <French>www.gsri.team</French>
+            </Key>
+            <Key ID="STR_GSRI_AUTHORS_PHILEAS">
+                <Original>[-GSRI-] PhileasLX for www.gsri.team</Original>
+                <English>[-GSRI-] PhileasLX for www.gsri.team</English>
+                <French>[-GSRI-] PhileasLX pour www.gsri.team</French>
+            </Key>
+            <Key ID="STR_GSRI_AUTHORS_SEENRI">
+                <Original>[-GSRI-] Seenri for www.gsri.team</Original>
+                <English>[-GSRI-] Seenri for www.gsri.team</English>
+                <French>[-GSRI-] Seenri pour www.gsri.team</French>
+            </Key>
+        </Container>
+    </Package>
+    <Package name="Backpacks">
+        <Container name="Backpacks names">
+            <Key ID="STR_GSRI_BACKPACK_ASSAULTPACK">
+                <Original>[-GSRI-] Assault pack</Original>
+                <English>[-GSRI-] Assault pack</English>
+                <French>[-GSRI-] Paquetage d'assaut</French>
+            </Key>
+            <Key ID="STR_GSRI_BACKPACK_KITBAG">
+                <Original>[-GSRI-] Kitbag</Original>
+                <English>[-GSRI-] Kitbag</English>
+                <French>[-GSRI-] Paquetage de terrain</French>
+            </Key>
+            <Key ID="STR_GSRI_BACKPACK_RADIOBAG">
+                <Original>[-GSRI-] Radio pack</Original>
+                <English>[-GSRI-] Radio pack</English>
+                <French>[-GSRI-] Sac à dos radio</French>
+            </Key>
+            <Key ID="STR_GSRI_BACKPACK_TACTICALPACK">
+                <Original>[-GSRI-] Tactical backpack</Original>
+                <English>[-GSRI-] Tactical backpack</English>
+                <French>[-GSRI-] Sac à dos tactique</French>
+            </Key>
+            <Key ID="STR_GSRI_BACKPACK_CARRYALL">
+                <Original>[-GSRI-] Carryall backpack</Original>
+                <English>[-GSRI-] Carryall backpack</English>
+                <French>[-GSRI-] Sac à dos multifonctions</French>
+            </Key>
+        </Container>
+    </Package>
+    <Package name="Headgear">
+        <Container name="Headgear names">
+            <Key ID="STR_GSRI_HEADGEAR_BERET">
+                <Original>[-GSRI-] Beret</Original>
+                <English>[-GSRI-] Beret</English>
+                <French>[-GSRI-] Béret</French>
+            </Key>
+            <Key ID="STR_GSRI_HEADGEAR_BEANIE_WHITE">
+                <Original>[-GSRI-] Beanie (white)</Original>
+                <English>[-GSRI-] Beanie (white)</English>
+                <French>[-GSRI-] Bonnet (blanc)</French>
+            </Key>
+            <Key ID="STR_GSRI_HEADGEAR_HELMET">
+                <Original>[-GSRI-] Combat helmet</Original>
+                <English>[-GSRI-] Combat helmet</English>
+                <French>[-GSRI-] Casque de combat</French>
+            </Key>
+            <Key ID="STR_GSRI_HEADGEAR_HELMET_ACCESSORIES">
+                <Original>[-GSRI-] Combat helmet (accessories)</Original>
+                <English>[-GSRI-] Combat helmet (accessories)</English>
+                <French>[-GSRI-] Casque de combat (accessoires)</French>
+            </Key>
+            <Key ID="STR_GSRI_HEADGEAR_HELMET_LIGHT">
+                <Original>[-GSRI-] Light helmet</Original>
+                <English>[-GSRI-] Light helmet</English>
+                <French>[-GSRI-] Casque léger</French>
+            </Key>
+            <Key ID="STR_GSRI_HEADGEAR_HELMET_MODULAR">
+                <Original>[-GSRI-] Modular helmet</Original>
+                <English>[-GSRI-] Modular helmet</English>
+                <French>[-GSRI-] Casque modulaire</French>
+            </Key>
+            <Key ID="STR_GSRI_HEADGEAR_HELMET_MODULAR_ACCESSORIES">
+                <Original>[-GSRI-] Modular helmet (accessories)</Original>
+                <English>[-GSRI-] Modular helmet (accessories)</English>
+                <French>[-GSRI-] Casque modulaire (accessoires)</French>
+            </Key>
+            <Key ID="STR_GSRI_HEADGEAR_HELMET_MODULAR_INTEGRAL">
+                <Original>[-GSRI-] Modular helmet (integral)</Original>
+                <English>[-GSRI-] Modular helmet (integral)</English>
+                <French>[-GSRI-] Casque modulaire (intégral)</French>
+            </Key>
+        </Container>
+    </Package>
+    <Package name="Facewear">
+        <Container name="Facewear names">
+            <Key ID="STR_GSRI_FACEWEAR_BANDMASK_CAMO">
+                <Original>[-GSRI-] Bandana (camo)</Original>
+                <English>[-GSRI-] Bandana (camo)</English>
+                <French>[-GSRI-] Bandana (camouflage)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BANDMASK_LIGHT">
+                <Original>[-GSRI-] Bandana (light green)</Original>
+                <English>[-GSRI-] Bandana (light green)</English>
+                <French>[-GSRI-] Bandana (vert clair)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BANDMASK_MEDIUM">
+                <Original>[-GSRI-] Bandana (green)</Original>
+                <English>[-GSRI-] Bandana (green)</English>
+                <French>[-GSRI-] Bandana (vert)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BANDMASK_DARK">
+                <Original>[-GSRI-] Bandana (dark green)</Original>
+                <English>[-GSRI-] Bandana (dark green)</English>
+                <French>[-GSRI-] Bandana (vert foncé)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BANDMASK_GLASSES_CAMO">
+                <Original>[-GSRI-] Bandana (camo, glasses)</Original>
+                <English>[-GSRI-] Bandana (camo, glasses)</English>
+                <French>[-GSRI-] Bandana (camouflage, lunettes)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BANDMASK_GLASSES_LIGHT">
+                <Original>[-GSRI-] Bandana (light green, glasses)</Original>
+                <English>[-GSRI-] Bandana (light green, glasses)</English>
+                <French>[-GSRI-] Bandana (vert clair, lunettes)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BANDMASK_GLASSES_MEDIUM">
+                <Original>[-GSRI-] Bandana (green, glasses)</Original>
+                <English>[-GSRI-] Bandana (green, glasses)</English>
+                <French>[-GSRI-] Bandana (vert, lunettes)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BANDMASK_GLASSES_DARK">
+                <Original>[-GSRI-] Bandana (dark green, glasses)</Original>
+                <English>[-GSRI-] Bandana (dark green, glasses)</English>
+                <French>[-GSRI-] Bandana (vert foncé, lunettes)</French>
+            </Key>
+
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_WHITE">
+                <Original>[-GSRI-] Balaclava (whool, white)</Original>
+                <English>[-GSRI-] Balaclava (whool, white)</English>
+                <French>[-GSRI-] Balaclava (laine, blanche)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_WHITE_GLASSES">
+                <Original>[-GSRI-] Balaclava (whool, white, glasses)</Original>
+                <English>[-GSRI-] Balaclava (whool, white, glasses)</English>
+                <French>[-GSRI-] Balaclava (laine, blanche, lunettes)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_WHITE_GOGGLES">
+                <Original>[-GSRI-] Balaclava (whool, white, goggles)</Original>
+                <English>[-GSRI-] Balaclava (whool, white, goggles)</English>
+                <French>[-GSRI-] Balaclava (laine, blanche, masque)</French>
+            </Key>
+
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_GREEN">
+                <Original>[-GSRI-] Balaclava (whool, green)</Original>
+                <English>[-GSRI-] Balaclava (whool, green)</English>
+                <French>[-GSRI-] Balaclava (laine, verte)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_GREEN_GLASSES">
+                <Original>[-GSRI-] Balaclava (whool, green, glasses)</Original>
+                <English>[-GSRI-] Balaclava (whool, green, glasses)</English>
+                <French>[-GSRI-] Balaclava (laine, verte, lunettes)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_GREEN_GOGGLES">
+                <Original>[-GSRI-] Balaclava (whool, green, goggles)</Original>
+                <English>[-GSRI-] Balaclava (whool, green, goggles)</English>
+                <French>[-GSRI-] Balaclava (laine, verte, masque)</French>
+            </Key>
+
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_LIGHT">
+                <Original>[-GSRI-] Balaclava (whool, light green)</Original>
+                <English>[-GSRI-] Balaclava (whool, light green)</English>
+                <French>[-GSRI-] Balaclava (laine, vert clair)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_LIGHT_GLASSES">
+                <Original>[-GSRI-] Balaclava (whool, light green, glasses)</Original>
+                <English>[-GSRI-] Balaclava (whool, light green, glasses)</English>
+                <French>[-GSRI-] Balaclava (laine, vert clair, lunettes)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_LIGHT_GOGGLES">
+                <Original>[-GSRI-] Balaclava (whool, light green, goggles)</Original>
+                <English>[-GSRI-] Balaclava (whool, light green, goggles)</English>
+                <French>[-GSRI-] Balaclava (laine, vert clair, masque)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_DARK">
+                <Original>[-GSRI-] Balaclava (whool, dark green)</Original>
+                <English>[-GSRI-] Balaclava (whool, dark green)</English>
+                <French>[-GSRI-] Balaclava (laine, vert foncé)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_DARK_GLASSES">
+                <Original>[-GSRI-] Balaclava (whool, dark green, glasses)</Original>
+                <English>[-GSRI-] Balaclava (whool, dark green, glasses)</English>
+                <French>[-GSRI-] Balaclava (laine, vert foncé, masque)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_DARK_GOGGLES">
+                <Original>[-GSRI-] Balaclava (whool, dark green, goggles)</Original>
+                <English>[-GSRI-] Balaclava (whool, dark green, goggles)</English>
+                <French>[-GSRI-] Balaclava (laine, vert foncé, masque)</French>
+            </Key>
+
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_V2_CAMO">
+                <Original>[-GSRI-] Balaclava (synthetic, camo)</Original>
+                <English>[-GSRI-] Balaclava (synthetic, camo)</English>
+                <French>[-GSRI-] Balaclava (synthétique, camouflage)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_V2_CAMO_GOGGLES">
+                <Original>[-GSRI-] Balaclava (synthetic, camo, goggles)</Original>
+                <English>[-GSRI-] Balaclava (synthetic, camo, goggles)</English>
+                <French>[-GSRI-] Balaclava (synthétique, camouflage, masque)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_V2_LIGHT">
+                <Original>[-GSRI-] Balaclava (synthetic, light green)</Original>
+                <English>[-GSRI-] Balaclava (synthetic, light green)</English>
+                <French>[-GSRI-] Balaclava (synthétique, vert clair)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_V2_LIGHT_GOGGLES">
+                <Original>[-GSRI-] Balaclava (synthetic, light green, goggles)</Original>
+                <English>[-GSRI-] Balaclava (synthetic, light green, goggles)</English>
+                <French>[-GSRI-] Balaclava (synthétique, vert clair, masque)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_V2_MEDIUM">
+                <Original>[-GSRI-] Balaclava (synthetic, green)</Original>
+                <English>[-GSRI-] Balaclava (synthetic, green)</English>
+                <French>[-GSRI-] Balaclava (synthétique, vert)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_V2_MEDIUM_GOGGLES">
+                <Original>[-GSRI-] Balaclava (synthetic, green, goggles)</Original>
+                <English>[-GSRI-] Balaclava (synthetic, green, goggles)</English>
+                <French>[-GSRI-] Balaclava (synthétique, vert, masque)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_V2_DARK">
+                <Original>[-GSRI-] Balaclava (synthetic, dark green)</Original>
+                <English>[-GSRI-] Balaclava (synthetic, dark green)</English>
+                <French>[-GSRI-] Balaclava (synthétique, vert foncé)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_V2_DARK_GOGGLES">
+                <Original>[-GSRI-] Balaclava (synthetic, dark green, goggles)</Original>
+                <English>[-GSRI-] Balaclava (synthetic, dark green, goggles)</English>
+                <French>[-GSRI-] Balaclava (synthétique, vert foncé, masque)</French>
+            </Key>
+        </Container>
+    </Package>
+    <Package name="Uniforms">
+        <Container name="Uniforms names">
+            <Key ID="STR_GSRI_UNIFORMS_BASE">
+                <Original>[-GSRI-] Combat uniform</Original>
+                <English>[-GSRI-] Combat uniform</English>
+                <French>[-GSRI-] Tenue de combat</French>
+            </Key>
+            <Key ID="STR_GSRI_UNIFORMS_ROLLED_SLEEVES">
+                <Original>[-GSRI-] Combat uniform (rolled sleeves)</Original>
+                <English>[-GSRI-] Combat uniform (rolled sleeves)</English>
+                <French>[-GSRI-] Tenue de combat (manches remontées)</French>
+            </Key>
+            <Key ID="STR_GSRI_UNIFORMS_RAISED_COLLAR">
+                <Original>[-GSRI-] Combat uniform (raised collar)</Original>
+                <English>[-GSRI-] Combat uniform (raised collar)</English>
+                <French>[-GSRI-] Tenue de combat (col relevé)</French>
+            </Key>
+            <Key ID="STR_GSRI_UNIFORMS_TSHIRT_CAMO">
+                <Original>[-GSRI-] Combat uniform (t-shirt, camo)</Original>
+                <English>[-GSRI-] Combat uniform (t-shirt, camo)</English>
+                <French>[-GSRI-] Tenue de combat (t-shirt, camouflage)</French>
+            </Key>
+            <Key ID="STR_GSRI_UNIFORMS_TSHIRT_GREEN">
+                <Original>[-GSRI-] Combat uniform (t-shirt, green)</Original>
+                <English>[-GSRI-] Combat uniform (t-shirt, green)</English>
+                <French>[-GSRI-] Tenue de combat (t-shirt, vert)</French>
+            </Key>
+            <Key ID="STR_GSRI_UNIFORMS_GORKA_CAMO">
+                <Original>[-GSRI-] Gorka (camo)</Original>
+                <English>[-GSRI-] Gorka (camo)</English>
+                <French>[-GSRI-] Gorka (camouflage)</French>
+            </Key>
+            <Key ID="STR_GSRI_UNIFORMS_GORKA_GREEN">
+                <Original>[-GSRI-] Gorka (green)</Original>
+                <English>[-GSRI-] Gorka (green)</English>
+                <French>[-GSRI-] Gorka (verte)</French>
+            </Key>
+        </Container>
+    </Package>
+    <Package name="Vests">
+        <Container name="Vests names">
+            <Key ID="STR_GSRI_VESTS_CARRIER">
+                <Original>[-GSRI-] Light carrier (hydration pouch)</Original>
+                <English>[-GSRI-] Light carrier (hydration pouch)</English>
+                <French>[-GSRI-] Gilet léger (poche d'hydratation)</French>
+            </Key>
+            <Key ID="STR_GSRI_VESTS_CARRIER_LIGHT">
+                <Original>[-GSRI-] Light carrier</Original>
+                <English>[-GSRI-] Light carrier</English>
+                <French>[-GSRI-] Gilet léger</French>
+            </Key>
+            <Key ID="STR_GSRI_VESTS_MODULAR">
+                <Original>[-GSRI-] Heavy carrier</Original>
+                <English>[-GSRI-] Heavy carrier</English>
+                <French>[-GSRI-] Gilet lourd</French>
+            </Key>
+            <Key ID="STR_GSRI_VESTS_MODULAR_ACCESSORIES">
+                <Original>[-GSRI-] Heavy carrier (accessories)</Original>
+                <English>[-GSRI-] Heavy carrier (accessories)</English>
+                <French>[-GSRI-] Gilet lourd (accessoires)</French>
+            </Key>
+            <Key ID="STR_GSRI_VESTS_MODULAR_REINFORCED">
+                <Original>[-GSRI-] Heavy carrier (addons, accessories)</Original>
+                <English>[-GSRI-] Heavy carrier (addons, accessories)</English>
+                <French>[-GSRI-] Gilet lourd (suppléments, accessoires)</French>
+            </Key>
+            <Key ID="STR_GSRI_VESTS_GA_CARRIER">
+                <Original>[-GSRI-] Modular carrier rig (addons)</Original>
+                <English>[-GSRI-] Modular carrier rig (addons)</English>
+                <French>[-GSRI-] Gilet modulable (suppléments)</French>
+            </Key>
+            <Key ID="STR_GSRI_VESTS_GA_CARRIER_LITE">
+                <Original>[-GSRI-] Modular carrier rig</Original>
+                <English>[-GSRI-] Modular carrier rig</English>
+                <French>[-GSRI-] Gilet modulable</French>
+            </Key>
+        </Container>
+    </Package>
+</Project>
