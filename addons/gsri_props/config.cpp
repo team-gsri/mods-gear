@@ -48,11 +48,11 @@ class CfgNotifications {
 
 class CfgVehicles {
     class FlagCarrier;
-    class gsri_flags_base : FlagCarrier	{
+    class gsri_flags_base : FlagCarrier {
         author="www.gsri.team";
         class SimpleObject {
             eden=0;
-            animate[]= {				
+            animate[]= {    
                 {"flag", 0}
             };
             hide[]={};
@@ -62,15 +62,15 @@ class CfgVehicles {
         };
         scope=1;
         scopeCurator=1;
-        hiddenSelectionsTextures[]=	{"\A3\Structures_F\Mil\Flags\Data\Mast_mil_CO.paa"};
+        hiddenSelectionsTextures[]= {"\A3\Structures_F\Mil\Flags\Data\Mast_mil_CO.paa"};
         hiddenSelectionsMaterials[]={"\A3\Structures_F\Mil\Flags\Data\Mast_mil.rvmat"};
     };
-    class gsri_flags_gsri : gsri_flags_base	{
+    class gsri_flags_gsri : gsri_flags_base {
         scope=2;
         scopeCurator=2;
         editorPreview="\fr\gsri\props\flags\UI\flags\flag_gsri.jpg";
         displayName="$STR_GSRI_FLAG_GSRI";
-        class EventHandlers	{
+        class EventHandlers {
             init="(_this select 0) setFlagTexture '\fr\gsri\props\flags\Data\flag_gsri_CO.paa'";
         };
     };
@@ -79,7 +79,7 @@ class CfgVehicles {
         scopeCurator=2;
         editorPreview="\fr\gsri\props\flags\UI\flags\flag_fr.jpg";
         displayName="$STR_GSRI_FLAG_FR";
-        class EventHandlers	{
+        class EventHandlers {
             init="(_this select 0) setFlagTexture '\fr\gsri\props\flags\Data\flag_fr_CO.paa'";
         };
     };
@@ -88,7 +88,7 @@ class CfgVehicles {
         scopeCurator=2;
         editorPreview="\fr\gsri\props\flags\UI\flags\flag_eu.jpg";
         displayName="$STR_GSRI_FLAG_EU";
-        class EventHandlers	{
+        class EventHandlers {
             init="(_this select 0) setFlagTexture '\fr\gsri\props\flags\Data\flag_eu_CO.paa'";
         };
     };
