@@ -37,6 +37,11 @@
                 <English>Light anti-tank outfit</English>
                 <French>Tenue d'Anti-Blindé Léger (ABL)</French>
             </Key>
+            <Key ID="STR_GSRI_locker_gearAsTraining">
+                <Original>Training outfit</Original>
+                <English>Training outfit</English>
+                <French>Tenue d'entrainement</French>
+            </Key>
         </Container>
         <Container name="Arsenal actions">
             <Key ID="STR_GSRI_locker_arsenalMain">
@@ -95,18 +100,52 @@
     </Package>
     <Package name="Flags">
         <Container name="Flag names">
-			<Key ID="STR_GSRI_FLAG_GSRI">
-				<English>Flag (GSRI)</English>
-				<French>Drapeau (GSRI)</French>
-			</Key>
-			<Key ID="STR_GSRI_FLAG_FR">
-				<English>Flag (French)</English>
-				<French>Drapeau (Français)</French>
-			</Key>
-			<Key ID="STR_GSRI_FLAG_EU">
-				<English>Flag (Europe)</English>
-				<French>Drapeau (Europe)</French>
-			</Key>
-		</Container>
+            <Key ID="STR_GSRI_FLAG_GSRI">
+                <English>Flag (GSRI)</English>
+                <French>Drapeau (GSRI)</French>
+            </Key>
+            <Key ID="STR_GSRI_FLAG_FR">
+                <English>Flag (French)</English>
+                <French>Drapeau (Français)</French>
+            </Key>
+            <Key ID="STR_GSRI_FLAG_EU">
+                <English>Flag (Europe)</English>
+                <French>Drapeau (Europe)</French>
+            </Key>
+        </Container>
+    </Package>
+    <Package name="Misc items">
+        <Container name="Weighting bags">
+            <Key ID="STR_GSRI_Weighting_bag">
+                <Original>Weighting bag (0.5kg)</Original>
+                <English>Weighting bag (0.5kg)</English>
+                <French>Sac de lestage (0.5kg)</French>
+            </Key>
+            <Key ID="STR_GSRI_Weighting_bag_1kg">
+                <Original>Weighting bag (1kg)</Original>
+                <English>Weighting bag (1kg)</English>
+                <French>Sac de lestage (1kg)</French>
+            </Key>
+            <Key ID="STR_GSRI_Weighting_bag_5kg">
+                <Original>Weighting bag (5kg)</Original>
+                <English>Weighting bag (5kg)</English>
+                <French>Sac de lestage (5kg)</French>
+            </Key>
+            <Key ID="STR_GSRI_Weighting_bag_desc">
+                <Original>Use this to weight down your loadout by 0.5kg.</Original>
+                <English>Use this to weight down your loadout by 0.5kg.</English>
+                <French>Utilisable pour lester son équipement de 0.5kg.</French>
+            </Key>
+            <Key ID="STR_GSRI_Weighting_bag_1kg_desc">
+                <Original>Use this to weight down your loadout by 1kg.</Original>
+                <English>Use this to weight down your loadout by 1kg.</English>
+                <French>Utilisable pour lester son équipement de 1kg.</French>
+            </Key>
+            <Key ID="STR_GSRI_Weighting_bag_5kg_desc">
+                <Original>Use this to weight down your loadout by 5kg.</Original>
+                <English>Use this to weight down your loadout by 5kg.</English>
+                <French>Utilisable pour lester son équipement de 5kg.</French>
+            </Key>
+        </Container>
     </Package>
 </Project>
