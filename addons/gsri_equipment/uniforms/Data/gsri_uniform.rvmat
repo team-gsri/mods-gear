@@ -63,7 +63,7 @@ class Stage4
 };
 class Stage5
 {
-	texture = "fr\gsri\uniforms\Data\gsri_uniform_smdi.paa";
+	texture = "fr\gsri\equipment\uniforms\Data\gsri_uniform_smdi.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
