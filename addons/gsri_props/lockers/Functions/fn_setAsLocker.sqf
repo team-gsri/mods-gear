@@ -50,6 +50,7 @@ _preslotsActions pushBack (["actionTad",localize "STR_GSRI_locker_gearAsTad","",
 _preslotsActions pushBack (["actionMedic",localize "STR_GSRI_locker_gearAsMedic","",GSRI_fnc_getMedic,{true}] call ace_interact_menu_fnc_createAction);
 _preslotsActions pushBack (["actionRegular",localize "STR_GSRI_locker_gearAsRegular","",GSRI_fnc_getRegular,{true}] call ace_interact_menu_fnc_createAction);
 _preslotsActions pushBack (["actionAbl",localize "STR_GSRI_locker_gearAsAbl","",GSRI_fnc_getAbl,{true}] call ace_interact_menu_fnc_createAction);
+_preslotsActions pushBack (["actionTraining",localize "STR_GSRI_locker_gearAsTraining","",GSRI_fnc_getTraining,{true}] call ace_interact_menu_fnc_createAction);
 
 // Medical skills actions
 _actionMedicalMain = ["actionMedicalMain",localize "STR_GSRI_locker_medicalMain","\z\ace\addons\medical_gui\ui\cross.paa",{},{true}] call ace_interact_menu_fnc_createAction;
