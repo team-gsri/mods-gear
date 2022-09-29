@@ -1,10 +1,3 @@
-////////////////////////////////////////////////////////////////////
-//DeRap: G:\GamesLibrary\Arma\Retexture\headgear\raw\G_Balaclava_TI_blk_F_co.rvmat
-//Produced from mikero's Dos Tools Dll version 8.35
-//https://mikero.bytex.digital/Downloads
-//'now' is Wed Jul 13 16:38:47 2022 : 'file' last modified on Mon Aug 19 11:01:32 2019
-////////////////////////////////////////////////////////////////////
-
 #define _ARMA_
 
 class StageTI
@@ -21,7 +14,7 @@ PixelShaderID = "Super";
 VertexShaderID = "Super";
 class Stage1
 {
-	texture = "fr\gsri\headgear\data\gsri_balaclava_v2_nohq.paa";
+	texture = "fr\gsri\equipment\facewear\Data\gsri_balaclava_v2_nohq.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
@@ -69,7 +62,7 @@ class Stage4
 };
 class Stage5
 {
-	texture = "fr\gsri\headgear\data\gsri_balaclava_v2_smdi.paa";
+	texture = "fr\gsri\equipment\facewear\Data\gsri_balaclava_v2_smdi.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
