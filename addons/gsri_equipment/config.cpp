@@ -52,6 +52,7 @@ class CfgVehicles {
 };
 
 class CfgWeapons {
+    class ItemCore;
     #include "weapons_compat.hpp"
     #include "headgear\headgear.hpp"
     #include "uniforms\uniformItems.hpp"
