@@ -27,6 +27,7 @@ class GSRI_helmet : H_HelmetB {
     author = "$STR_GSRI_AUTHORS_PHILEAS";
     weaponPoolAvailable = 1;
     displayName = "$STR_GSRI_HEADGEAR_HELMET";
+    descriptionShort="$STR_A3_SP_AL_II";
     picture = "\fr\gsri\equipment\headgear\UI\icon_gsri_helmet.paa";
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain.p3d";
     hiddenSelections[] = { "camo" };
@@ -53,6 +54,7 @@ class GSRI_helmet_spec : H_HelmetSpecB {
     author = "$STR_GSRI_AUTHORS_PHILEAS";
     weaponPoolAvailable = 1;
     displayName = "$STR_GSRI_HEADGEAR_HELMET_ACCESSORIES";
+    descriptionShort="$STR_A3_SP_AL_II";
     picture = "\fr\gsri\equipment\headgear\UI\icon_gsri_helmet_accessories.paa";
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic.p3d";
     hiddenSelections[] = { "camo" };
@@ -79,6 +81,7 @@ class GSRI_helmet_light : H_HelmetB_light {
     author = "$STR_GSRI_AUTHORS_PHILEAS";
     weaponPoolAvailable = 1;
     displayName = "$STR_GSRI_HEADGEAR_HELMET_LIGHT";
+    descriptionShort="$STR_A3_SP_AL_II";
     picture = "\fr\gsri\equipment\headgear\UI\icon_gsri_helmet_light.paa";
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light.p3d";
     hiddenSelections[] = { "camo" };
@@ -105,6 +108,7 @@ class GSRI_helmet_modular : H_HelmetB {
     author = "$STR_GSRI_AUTHORS_PHILEAS";
     weaponPoolAvailable = 1;
     displayName = "$STR_GSRI_HEADGEAR_HELMET_MODULAR";
+    descriptionShort="$STR_A3_SP_AL_II";
     picture = "\fr\gsri\equipment\headgear\UI\icon_gsri_helmet_modular.paa";
     model = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_F.p3d";
     hiddenSelections[] = { "camo" };
@@ -129,6 +133,7 @@ class GSRI_helmet_modular : H_HelmetB {
 class GSRI_helmet_modular_advanced : GSRI_helmet_modular {
     author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName = "$STR_GSRI_HEADGEAR_HELMET_MODULAR_ACCESSORIES";
+    descriptionShort="$STR_A3_SP_AL_II";
     picture = "\fr\gsri\equipment\headgear\UI\icon_gsri_helmet_modular_accessories.paa";
     model = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_headset_F.p3d";
     ace_hearing_protection = 0.5;
@@ -151,6 +156,7 @@ class GSRI_helmet_modular_advanced : GSRI_helmet_modular {
 class GSRI_helmet_modular_integral : GSRI_helmet_modular {
     author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName = "$STR_GSRI_HEADGEAR_HELMET_MODULAR_INTEGRAL";
+    descriptionShort="$STR_A3_SP_AL_II";
     picture = "\fr\gsri\equipment\headgear\UI\icon_gsri_helmet_modular_accessories.paa";
     model = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_chops_F.p3d";
     ace_hearing_protection = 0.5;
