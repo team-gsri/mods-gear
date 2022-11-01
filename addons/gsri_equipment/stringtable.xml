@@ -85,6 +85,11 @@
                 <English>[-GSRI-] Modular helmet (accessories)</English>
                 <French>[-GSRI-] Casque modulaire (accessoires)</French>
             </Key>
+            <Key ID="STR_GSRI_HEADGEAR_HELMET_MODULAR_HALFINTEGRAL">
+                <Original>[-GSRI-] Modular helmet (half-integral)</Original>
+                <English>[-GSRI-] Modular helmet (half-integral)</English>
+                <French>[-GSRI-] Casque modulaire (semi-intégral)</French>
+            </Key>
             <Key ID="STR_GSRI_HEADGEAR_HELMET_MODULAR_INTEGRAL">
                 <Original>[-GSRI-] Modular helmet (integral)</Original>
                 <English>[-GSRI-] Modular helmet (integral)</English>

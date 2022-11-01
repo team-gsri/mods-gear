@@ -33,8 +33,6 @@ class GSRI_helmet : H_HelmetB {
     hiddenSelections[] = { "camo" };
     hiddenSelectionsTextures[] = { "\fr\gsri\equipment\headgear\Data\helmet_co.paa"};
     hiddenSelectionsMaterials[] = {"\fr\gsri\equipment\headgear\Data\helmet.rvmat"};
-    ace_hearing_protection = 0;
-    ace_hearing_lowerVolume = 0;
     class ItemInfo : HeadgearItem {
         mass = 30;
         uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain.p3d";
@@ -60,8 +58,6 @@ class GSRI_helmet_spec : H_HelmetSpecB {
     hiddenSelections[] = { "camo" };
     hiddenSelectionsTextures[] = { "\fr\gsri\equipment\headgear\Data\helmet_co.paa"};
     hiddenSelectionsMaterials[] = {"\fr\gsri\equipment\headgear\Data\helmet.rvmat"};
-    ace_hearing_protection = 0.5;
-    ace_hearing_lowerVolume = 0.3;
     class ItemInfo : HeadgearItem {
         mass = 30;
         uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic.p3d";
@@ -87,8 +83,6 @@ class GSRI_helmet_light : H_HelmetB_light {
     hiddenSelections[] = { "camo" };
     hiddenSelectionsTextures[] = { "\fr\gsri\equipment\headgear\Data\helmet_co.paa"};
     hiddenSelectionsMaterials[] = {"\fr\gsri\equipment\headgear\Data\helmet.rvmat"};
-    ace_hearing_protection = 0.5;
-    ace_hearing_lowerVolume = 0.3;
     class ItemInfo : HeadgearItem {
         mass = 30;
         uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light.p3d";
@@ -113,8 +107,6 @@ class GSRI_helmet_modular : H_HelmetB {
     model = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_F.p3d";
     hiddenSelections[] = { "camo" };
     hiddenSelectionsTextures[] = { "\fr\gsri\equipment\headgear\Data\helmet_modular_co.paa"};
-    ace_hearing_protection = 0;
-    ace_hearing_lowerVolume = 0;
     class ItemInfo : HeadgearItem {
         mass = 30;
         uniformModel = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_F.p3d";
@@ -130,14 +122,14 @@ class GSRI_helmet_modular : H_HelmetB {
     };
 };
 
-class GSRI_helmet_modular_advanced : GSRI_helmet_modular {
+class GSRI_helmet_modular_advanced : H_HelmetSpecB {
     author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName = "$STR_GSRI_HEADGEAR_HELMET_MODULAR_ACCESSORIES";
     descriptionShort="$STR_A3_SP_AL_II";
     picture = "\fr\gsri\equipment\headgear\UI\icon_gsri_helmet_modular_accessories.paa";
     model = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_headset_F.p3d";
-    ace_hearing_protection = 0.5;
-    ace_hearing_lowerVolume = 0.3;
+    hiddenSelections[] = { "camo" };
+    hiddenSelectionsTextures[] = { "\fr\gsri\equipment\headgear\Data\helmet_modular_co.paa"};
     class ItemInfo : HeadgearItem {
         mass = 30;
         uniformModel = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_headset_F.p3d";
@@ -153,14 +145,33 @@ class GSRI_helmet_modular_advanced : GSRI_helmet_modular {
     };
 };
 
-class GSRI_helmet_modular_integral : GSRI_helmet_modular {
+class GSRI_helmet_modular_halfintegral : GSRI_helmet_modular_advanced {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
+    displayName = "$STR_GSRI_HEADGEAR_HELMET_MODULAR_HALFINTEGRAL";
+    descriptionShort="$STR_A3_SP_AL_II";
+    picture = "\fr\gsri\equipment\headgear\UI\icon_gsri_helmet_modular_accessories.paa";
+    model = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_ear_F.p3d";
+    class ItemInfo : HeadgearItem {
+        mass = 30;
+        uniformModel = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_ear_F.p3d";
+        modelSides[] = { TCivilian, TWest };
+        hiddenSelections[] = { "camo" };
+        class HitpointsProtectionInfo {
+            class Head {
+                hitPointName = "HitHead";
+                armor = 6;
+                passThrough = 0.5;
+            };
+        };
+    };
+};
+
+class GSRI_helmet_modular_integral : GSRI_helmet_modular_advanced {
     author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName = "$STR_GSRI_HEADGEAR_HELMET_MODULAR_INTEGRAL";
     descriptionShort="$STR_A3_SP_AL_II";
     picture = "\fr\gsri\equipment\headgear\UI\icon_gsri_helmet_modular_accessories.paa";
     model = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_chops_F.p3d";
-    ace_hearing_protection = 0.5;
-    ace_hearing_lowerVolume = 0.3;
     class ItemInfo : HeadgearItem {
         mass = 30;
         uniformModel = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_chops_F.p3d";
