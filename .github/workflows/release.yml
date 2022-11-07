@@ -32,7 +32,7 @@ jobs:
       with:
         source: 'addons/gsri_equipment'
         target: 'addons'
-        includes: '*.p3d;*.paa;*.txt;*.xml;*.sqf;*.wss;*.ogg*;.rvmat'
+        includes: '*.p3d;*.paa;*.txt;*.xml;*.sqf;*.wss;*.ogg;*.rvmat'
         flags: '"-clear","-prefix=fr\gsri\equipment"'
 
     - name: Build GSRI Props
@@ -40,7 +40,7 @@ jobs:
       with:
         source: 'addons/gsri_props'
         target: 'addons'
-        includes: '*.p3d;*.paa;*.txt;*.xml;*.sqf;*.wss;*.ogg*;.rvmat'
+        includes: '*.p3d;*.paa;*.txt;*.xml;*.sqf;*.wss;*.ogg;*.rvmat'
         flags: '"-clear","-prefix=fr\gsri\props"'
 
     - name: Build GSRI Legacy configs
@@ -48,7 +48,7 @@ jobs:
       with:
         source: 'addons/gsri_legacy'
         target: 'addons'
-        includes: '*.p3d;*.paa;*.txt;*.xml;*.sqf;*.wss;*.ogg*;.rvmat'
+        includes: '*.p3d;*.paa;*.txt;*.xml;*.sqf;*.wss;*.ogg;*.rvmat'
         flags: '"-clear","-prefix=fr\gsri\legacy"'
 
     - name: Upload pbo files
