@@ -7,73 +7,41 @@ on:
     paths: ['addons/**']
 
 jobs:
-  lint:
-    runs-on: ubuntu-latest
-    steps:
-
-    - name: Checkout files
-      uses: actions/checkout@v2
-
-    - name: Lint sources
-      uses: jokoho48/sqflint@master
-      with:
-        args: --exit e --directory addons
-
-  build:
-    needs: lint
+  release:
     runs-on: [self-hosted, arma-tools]
     steps:
 
-    - name: Checkout files
-      uses: actions/checkout@v2
+      - name: Checkout files
+        uses: actions/checkout@v3
 
-    - name: Build GSRI Equipment
-      uses: team-gsri/actions-addon-builder@master
-      with:
-        source: 'addons/gsri_equipment'
-        target: 'addons'
-        includes: '*.p3d;*.paa;*.txt;*.xml;*.sqf;*.wss;*.ogg;*.rvmat'
-        flags: '"-clear","-prefix=fr\gsri\equipment"'
+      - name: Build GSRI Equipment
+        uses: team-gsri/actions-arma-tools/build-addon@v0
+        with:
+          prefix: 'fr\gsri\equipment'
+          source: ./addons/gsri_equipment
+          target: ./
 
-    - name: Build GSRI Props
-      uses: team-gsri/actions-addon-builder@master
-      with:
-        source: 'addons/gsri_props'
-        target: 'addons'
-        includes: '*.p3d;*.paa;*.txt;*.xml;*.sqf;*.wss;*.ogg;*.rvmat'
-        flags: '"-clear","-prefix=fr\gsri\props"'
+      - name: Build GSRI Props
+        uses: team-gsri/actions-arma-tools/build-addon@v0
+        with:
+          prefix: 'fr\gsri\props'
+          source: ./addons/gsri_props
+          target: ./
 
-    - name: Build GSRI Legacy configs
-      uses: team-gsri/actions-addon-builder@master
-      with:
-        source: 'addons/gsri_legacy'
-        target: 'addons'
-        includes: '*.p3d;*.paa;*.txt;*.xml;*.sqf;*.wss;*.ogg;*.rvmat'
-        flags: '"-clear","-prefix=fr\gsri\legacy"'
+      - name: Build GSRI Legacy configs
+        uses: team-gsri/actions-arma-tools/build-addon@v0
+        with:
+          prefix: 'fr\gsri\legacy'
+          source: ./addons/gsri_legacy
+          target: ./
 
-    - name: Upload pbo files
-      uses: actions/upload-artifact@v2
-      with:
-        name: addons
-        path: addons/*.pbo
-      
-  release:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
+      - name: Upload pbo files
+        uses: actions/upload-artifact@v2
+        with:
+          name: addons
+          path: ./*.pbo
 
-    - name: Download pbo files
-      uses: actions/download-artifact@v2
-      with:
-        name: addons
-        path: ./addons
-
-    - name: Create Github release
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: >
-        gh release create "ver-${GITHUB_SHA::7}"
-        --title "Version ${GITHUB_SHA::7}"
-        --notes "${{ github.event.head_commit.message }}"
-        --repo ${{ github.repository }}
-        ./addons/*.pbo
+      - name: Create Github release
+        uses: arwynfr/actions-conventional-versioning@v1
+        with:
+          pattern: ./*.pbo
