@@ -19,12 +19,9 @@ class CfgFunctions {
     class GSRI {
         class lockers {
             file="fr\gsri\props\lockers\functions";
-            class getRegular {};
-            class getTad {};
-            class getMedic {};
-            class getOperator {};
-            class getAbl {};
-            class getTraining {};
+            class gearAsRegular {};
+            class gearAsGsri {};
+            class gearAsGcap {};
             class setAsLocker {};
             class setMedicalSkills {};
         };
