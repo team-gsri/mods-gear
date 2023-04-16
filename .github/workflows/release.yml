@@ -28,20 +28,13 @@ jobs:
           source: ./addons/gsri_props
           target: ./
 
-      - name: Build GSRI Legacy configs
-        uses: team-gsri/actions-arma-tools/build-addon@v0
+      - name: Deploy mod to GitHub and Workshop
+        uses: team-gsri/actions-arma-tools/release-mod@v0
         with:
-          prefix: 'fr\gsri\legacy'
-          source: ./addons/gsri_legacy
-          target: ./
-
-      - name: Upload pbo files
-        uses: actions/upload-artifact@v3
-        with:
-          name: addons
-          path: ./*.pbo
-
-      - name: Create Github release
-        uses: arwynfr/actions-conventional-versioning@v1
-        with:
-          pattern: ./*.pbo
+          source: ./
+          name: GSRI-GEAR
+          product: "GSRI Gear"
+          image: gsrilogo.paa
+          workshopId: ${{ secrets.WORKSHOP_ID }}
+          steam_login: ${{ secrets.STEAM_LOGIN }}
+          steam_password: ${{ secrets.STEAM_PASSWD }}
