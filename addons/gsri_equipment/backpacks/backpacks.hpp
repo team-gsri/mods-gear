@@ -19,22 +19,6 @@ class GSRI_Kitbag : Bag_Base {
     maximumLoad = 280;
     mass = 50;
 };
-class GSRI_RadioBag : Bag_Base {
-    author="$STR_GSRI_AUTHORS_PHILEAS";
-    scope = 2;
-    model = "\A3\supplies_f_enoch\Bags\B_RadioBag_01_F.p3d";
-    displayName = "$STR_GSRI_BACKPACK_RADIOBAG";
-    picture = "\fr\gsri\equipment\backpacks\UI\icon_gsri_radiobag_ca.paa";
-    hiddenSelections[] = {"Camo1"};
-    hiddenSelectionsTextures[]={"\fr\gsri\equipment\backpacks\Data\gsri_radiobag_co.paa"};
-    maximumLoad = 220;
-    mass = 110;
-    tf_HasLRradio = 1;
-    tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
-    tf_encryptionCode = "tf_west_radio_code";
-    tf_dialog = "rt1523g_radio_dialog";
-    tf_subtype = "digital_lr";
-};
 class GSRI_TacticalPack : Bag_Base {
     author="$STR_GSRI_AUTHORS_PHILEAS";
     scope = 2;

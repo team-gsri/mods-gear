@@ -12,35 +12,85 @@
                 <English>Preslots</English>
                 <French>Preslots</French>
             </Key>
-            <Key ID="STR_GSRI_locker_gearAsOperator">
+            <Key ID="STR_GSRI_locker_gearAsRegular">
+                <Original>Briefing outfit</Original>
+                <English>Briefing outfit</English>
+                <French>Tenue de briefing</French>
+            </Key>
+            <Key ID="STR_GSRI_locker_gearAsGsri">
+                <Original>GSRI</Original>
+                <English>GSRI</English>
+                <French>GSRI</French>
+            </Key>
+            <Key ID="STR_GSRI_locker_gearAsGsriOperator">
                 <Original>Operator outfit</Original>
                 <English>Operator outfit</English>
-                <French>Tenue d'opérateur</French>
+                <French>Opérateur</French>
             </Key>
-            <Key ID="STR_GSRI_locker_gearAsTad">
+            <Key ID="STR_GSRI_locker_gearAsGsriGunner">
                 <Original>Autorifleman outfit</Original>
                 <English>Autorifleman outfit</English>
-                <French>Tenue de Tireur Appui Direct (TAD)</French>
+                <French>Mitrailleur</French>
             </Key>
-            <Key ID="STR_GSRI_locker_gearAsMedic">
+            <Key ID="STR_GSRI_locker_gearAsGsriMedic">
                 <Original>Medic outfit</Original>
                 <English>Medic outfit</English>
-                <French>Tenue de médecin</French>
+                <French>Médecin</French>
             </Key>
-            <Key ID="STR_GSRI_locker_gearAsRegular">
-                <Original>Regular fatigues</Original>
-                <English>Regular fatigues</English>
-                <French>Tenue régulière</French>
+            <Key ID="STR_GSRI_locker_gearAsGsriAntitank">
+                <Original>Antitank outfit</Original>
+                <English>Antitank outfit</English>
+                <French>Antichar</French>
             </Key>
-            <Key ID="STR_GSRI_locker_gearAsAbl">
-                <Original>Light anti-tank outfit</Original>
-                <English>Light anti-tank outfit</English>
-                <French>Tenue d'Anti-Blindé Léger (ABL)</French>
+            <Key ID="STR_GSRI_locker_gearAsGsriEngineer">
+                <Original>Engineer outfit</Original>
+                <English>Engineer outfit</English>
+                <French>Artificier</French>
             </Key>
-            <Key ID="STR_GSRI_locker_gearAsTraining">
-                <Original>Training outfit</Original>
-                <English>Training outfit</English>
-                <French>Tenue d'entrainement</French>
+            <Key ID="STR_GSRI_locker_gearAsGsriLead">
+                <Original>Unit leader outfit</Original>
+                <English>Unit leader outfit</English>
+                <French>Cadre</French>
+            </Key>
+            <Key ID="STR_GSRI_locker_gearAsGcap">
+                <Original>GCAP</Original>
+                <English>GCAP</English>
+                <French>GCAP</French>
+            </Key>
+            <Key ID="STR_GSRI_locker_gearAsGcapRifleman">
+                <Original>Rifleman outfit</Original>
+                <English>Rifleman outfit</English>
+                <French>Fusilier</French>
+            </Key>
+            <Key ID="STR_GSRI_locker_gearAsGcapAntitank">
+                <Original>Antitank outfit</Original>
+                <English>Antitank outfit</English>
+                <French>Antichar</French>
+            </Key>
+            <Key ID="STR_GSRI_locker_gearAsGcapGrenadier">
+                <Original>Grenadier outfit</Original>
+                <English>Grenadier outfit</English>
+                <French>Grenadier</French>
+            </Key>
+            <Key ID="STR_GSRI_locker_gearAsGcapMedic">
+                <Original>Medic outfit</Original>
+                <English>Medic outfit</English>
+                <French>Médecin</French>
+            </Key>
+            <Key ID="STR_GSRI_locker_gearAsGcapGunner">
+                <Original>Autorifleman outfit</Original>
+                <English>Autorifleman outfit</English>
+                <French>Mitrailleur</French>
+            </Key>
+            <Key ID="STR_GSRI_locker_gearAsGcapMarksman">
+                <Original>Marksman outfit</Original>
+                <English>Marksman outfit</English>
+                <French>Tireur de précision</French>
+            </Key>
+            <Key ID="STR_GSRI_locker_gearAsGcapLead">
+                <Original>Unit leader outfit</Original>
+                <English>Unit leader outfit</English>
+                <French>Cadre</French>
             </Key>
         </Container>
         <Container name="Arsenal actions">

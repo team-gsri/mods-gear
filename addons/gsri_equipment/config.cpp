@@ -21,8 +21,7 @@ class CfgPatches {
             "A3_Supplies_F_Enoch",
             "A3_Weapons_F",
             "cba_jr",
-            "cba_jam",
-            "tfar_core"
+            "cba_jam"
         };
     };
 };
