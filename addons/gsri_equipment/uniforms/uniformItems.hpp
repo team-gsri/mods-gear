@@ -99,9 +99,11 @@ class GSRI_shirt_green: GSRI_shirt_camo {
         mass=25;
     };
 };
-class GSRI_shirt_bme: GSRI_shirt_camo {
+class GSRI_shirt_bme: GSRI_uniform_bme {
     author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_UNIFORMS_TSHIRT_BME";
+    picture="\fr\gsri\equipment\uniforms\UI\icon_gsri_shirt_bme.paa";
+    hiddenSelections[] = {"camo","camo2"};
     class ItemInfo: UniformItem {
         uniformModel="-";
         uniformClass="GSRI_shirt_bme_U";

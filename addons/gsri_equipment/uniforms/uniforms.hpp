@@ -36,7 +36,7 @@ class GSRI_uniform_bme_U: B_Soldier_F {
     scope = 1;
     displayName="$STR_GSRI_UNIFORMS_BASE_BME";
     model="\A3\Characters_F\BLUFOR\B_Soldier_01.p3d";
-    uniformClass="GSRI_uniform";
+    uniformClass="GSRI_uniform_bme";
     hiddenSelections[] = {"camo","insignia"};
     hiddenSelectionsTextures[] = {"\fr\gsri\equipment\uniforms\Data\gsri_uniform_bme_co.paa"};
     hiddenSelectionsMaterials[] = {"\fr\gsri\equipment\uniforms\Data\gsri_uniform.rvmat"};
@@ -72,7 +72,7 @@ class GSRI_shirt_camo_U: GSRI_uniform_U {
     };
     hiddenSelectionsMaterials[] = {
         "\fr\gsri\equipment\uniforms\Data\gsri_uniform.rvmat",
-        "a3\characters_f\common\data\basicbody.rvmat"
+        "\fr\gsri\equipment\uniforms\Data\gsri_basicbody.rvmat"
     };
 };
 class GSRI_shirt_green_U: GSRI_shirt_camo_U {
@@ -83,12 +83,18 @@ class GSRI_shirt_green_U: GSRI_shirt_camo_U {
         "\fr\gsri\equipment\uniforms\Data\gsri_shirt_green_co.paa"
     };
 };
-class GSRI_shirt_bme_U: GSRI_shirt_camo_U {
+class GSRI_shirt_bme_U: GSRI_uniform_bme_U {
     displayName="$STR_GSRI_UNIFORMS_TSHIRT_BME";
+    model="\A3\Characters_F\BLUFOR\B_Soldier_02.p3d";
     uniformClass="GSRI_shirt_bme";
+    hiddenSelections[] = {"camo","camo2","insignia"};
     hiddenSelectionsTextures[] = {
-        "\fr\gsri\equipment\uniforms\Data\gsri_uniform_co.paa",
+        "\fr\gsri\equipment\uniforms\Data\gsri_uniform_bme_co.paa",
         "\fr\gsri\equipment\uniforms\Data\gsri_shirt_bme_co.paa"
+    };
+    hiddenSelectionsMaterials[] = {
+        "\fr\gsri\equipment\uniforms\Data\gsri_uniform.rvmat",
+        "\fr\gsri\equipment\uniforms\Data\gsri_basicbody.rvmat"
     };
 };
 

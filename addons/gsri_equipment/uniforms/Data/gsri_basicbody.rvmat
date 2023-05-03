@@ -2,19 +2,19 @@
 
 class StageTI
 {
-	texture = "#(argb,8,8,3)color(0,0,0,0)";
+	texture = "a3\characters_f\common\data\basicbody_ti_ca.paa";
 };
 ambient[] = {0.5,0.5,0.5,1};
 diffuse[] = {0.5,0.5,0.5,1};
 forcedDiffuse[] = {0,0,0,0};
 emmisive[] = {0,0,0,1};
-specular[] = {0.5,0.5,0.5,0};
-specularPower = 150;
+specular[] = {1,1,1,1};
+specularPower = 100;
 PixelShaderID = "Super";
 VertexShaderID = "Super";
 class Stage1
 {
-	texture = "a3\characters_f\blufor\data\equip1_nohq.paa";
+	texture = "a3\characters_f\common\data\basicbody_nohq.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
@@ -50,7 +50,7 @@ class Stage3
 };
 class Stage4
 {
-	texture = "a3\characters_f\blufor\data\equip1_as.paa";
+	texture = "a3\characters_f\common\data\basicbody_as.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
@@ -62,7 +62,7 @@ class Stage4
 };
 class Stage5
 {
-	texture = "fr\gsri\equipment\headgear\data\helmet_smdi.paa";
+	texture = "a3\characters_f\common\data\basicbody_smdi.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
@@ -74,7 +74,7 @@ class Stage5
 };
 class Stage6
 {
-	texture = "#(ai,64,64,1)fresnel(1,0.7)";
+	texture = "#(ai,64,64,1)fresnel(1.29,0.01)";
 	uvSource = "none";
 };
 class Stage7

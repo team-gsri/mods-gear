@@ -187,7 +187,7 @@ class GSRI_balaclava_v2_bme : GSRI_balaclava_v2_camo {
     picture = "\fr\gsri\equipment\facewear\UI\icon_gsri_balaclava_v2_bme_ca.paa";
     hiddenSelectionsTextures[]={"\fr\gsri\equipment\facewear\Data\gsri_balaclava_v2_bme_co.paa"};
 };
-class GSRI_balaclava_v2_light_goggles : GSRI_balaclava_v2_camo_goggles {
+class GSRI_balaclava_v2_bme_goggles : GSRI_balaclava_v2_camo_goggles {
     author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BALACLAVA_V2_BME_GOGGLES";
     picture = "\fr\gsri\equipment\facewear\UI\icon_gsri_balaclava_v2_bme_ca.paa";
