@@ -65,35 +65,70 @@
                 <English>[-GSRI-] Combat helmet</English>
                 <French>[-GSRI-] Casque de combat</French>
             </Key>
+            <Key ID="STR_GSRI_HEADGEAR_HELMET_BME">
+                <Original>[-GSRI-] Combat helmet (BME)</Original>
+                <English>[-GSRI-] Combat helmet (BME)</English>
+                <French>[-GSRI-] Casque de combat (BME)</French>
+            </Key>
             <Key ID="STR_GSRI_HEADGEAR_HELMET_ACCESSORIES">
                 <Original>[-GSRI-] Combat helmet (accessories)</Original>
                 <English>[-GSRI-] Combat helmet (accessories)</English>
                 <French>[-GSRI-] Casque de combat (accessoires)</French>
+            </Key>
+            <Key ID="STR_GSRI_HEADGEAR_HELMET_BME_ACCESSORIES">
+                <Original>[-GSRI-] Combat helmet (accessories, BME)</Original>
+                <English>[-GSRI-] Combat helmet (accessories, BME)</English>
+                <French>[-GSRI-] Casque de combat (accessoires, BME)</French>
             </Key>
             <Key ID="STR_GSRI_HEADGEAR_HELMET_LIGHT">
                 <Original>[-GSRI-] Light helmet</Original>
                 <English>[-GSRI-] Light helmet</English>
                 <French>[-GSRI-] Casque léger</French>
             </Key>
+            <Key ID="STR_GSRI_HEADGEAR_HELMET_BME_LIGHT">
+                <Original>[-GSRI-] Light helmet (BME)</Original>
+                <English>[-GSRI-] Light helmet (BME)</English>
+                <French>[-GSRI-] Casque léger (BME)</French>
+            </Key>
             <Key ID="STR_GSRI_HEADGEAR_HELMET_MODULAR">
                 <Original>[-GSRI-] Modular helmet</Original>
                 <English>[-GSRI-] Modular helmet</English>
                 <French>[-GSRI-] Casque modulaire</French>
+            </Key>
+            <Key ID="STR_GSRI_HEADGEAR_HELMET_BME_MODULAR">
+                <Original>[-GSRI-] Modular helmet (BME)</Original>
+                <English>[-GSRI-] Modular helmet (BME)</English>
+                <French>[-GSRI-] Casque modulaire (BME)</French>
             </Key>
             <Key ID="STR_GSRI_HEADGEAR_HELMET_MODULAR_ACCESSORIES">
                 <Original>[-GSRI-] Modular helmet (accessories)</Original>
                 <English>[-GSRI-] Modular helmet (accessories)</English>
                 <French>[-GSRI-] Casque modulaire (accessoires)</French>
             </Key>
+            <Key ID="STR_GSRI_HEADGEAR_HELMET_MODULAR_BME_ACCESSORIES">
+                <Original>[-GSRI-] Modular helmet (accessories, BME)</Original>
+                <English>[-GSRI-] Modular helmet (accessories, BME)</English>
+                <French>[-GSRI-] Casque modulaire (accessoires, BME)</French>
+            </Key>
             <Key ID="STR_GSRI_HEADGEAR_HELMET_MODULAR_HALFINTEGRAL">
                 <Original>[-GSRI-] Modular helmet (half-integral)</Original>
                 <English>[-GSRI-] Modular helmet (half-integral)</English>
                 <French>[-GSRI-] Casque modulaire (semi-intégral)</French>
             </Key>
+            <Key ID="STR_GSRI_HEADGEAR_HELMET_MODULAR_BME_HALFINTEGRAL">
+                <Original>[-GSRI-] Modular helmet (half-integral, BME)</Original>
+                <English>[-GSRI-] Modular helmet (half-integral, BME)</English>
+                <French>[-GSRI-] Casque modulaire (semi-intégral, BME)</French>
+            </Key>
             <Key ID="STR_GSRI_HEADGEAR_HELMET_MODULAR_INTEGRAL">
                 <Original>[-GSRI-] Modular helmet (integral)</Original>
                 <English>[-GSRI-] Modular helmet (integral)</English>
                 <French>[-GSRI-] Casque modulaire (intégral)</French>
+            </Key>
+            <Key ID="STR_GSRI_HEADGEAR_HELMET_MODULAR_BME_INTEGRAL">
+                <Original>[-GSRI-] Modular helmet (integral, BME)</Original>
+                <English>[-GSRI-] Modular helmet (integral, BME)</English>
+                <French>[-GSRI-] Casque modulaire (intégral, BME)</French>
             </Key>
         </Container>
     </Package>
@@ -103,6 +138,11 @@
                 <Original>[-GSRI-] Bandana (camo)</Original>
                 <English>[-GSRI-] Bandana (camo)</English>
                 <French>[-GSRI-] Bandana (camouflage)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BANDMASK_BME">
+                <Original>[-GSRI-] Bandana (BME)</Original>
+                <English>[-GSRI-] Bandana (BME)</English>
+                <French>[-GSRI-] Bandana (BME)</French>
             </Key>
             <Key ID="STR_GSRI_FACEWEAR_BANDMASK_LIGHT">
                 <Original>[-GSRI-] Bandana (light green)</Original>
@@ -123,6 +163,11 @@
                 <Original>[-GSRI-] Bandana (camo, glasses)</Original>
                 <English>[-GSRI-] Bandana (camo, glasses)</English>
                 <French>[-GSRI-] Bandana (camouflage, lunettes)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BANDMASK_GLASSES_BME">
+                <Original>[-GSRI-] Bandana (BME, glasses)</Original>
+                <English>[-GSRI-] Bandana (BME, glasses)</English>
+                <French>[-GSRI-] Bandana (BME, lunettes)</French>
             </Key>
             <Key ID="STR_GSRI_FACEWEAR_BANDMASK_GLASSES_LIGHT">
                 <Original>[-GSRI-] Bandana (light green, glasses)</Original>
@@ -213,6 +258,16 @@
                 <English>[-GSRI-] Balaclava (synthetic, camo, goggles)</English>
                 <French>[-GSRI-] Balaclava (synthétique, camouflage, masque)</French>
             </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_V2_BME">
+                <Original>[-GSRI-] Balaclava (synthetic, BME)</Original>
+                <English>[-GSRI-] Balaclava (synthetic, BME)</English>
+                <French>[-GSRI-] Balaclava (synthétique, BME)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_V2_BME_GOGGLES">
+                <Original>[-GSRI-] Balaclava (synthetic, BME, goggles)</Original>
+                <English>[-GSRI-] Balaclava (synthetic, BME, goggles)</English>
+                <French>[-GSRI-] Balaclava (synthétique, BME, masque)</French>
+            </Key>
             <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_V2_LIGHT">
                 <Original>[-GSRI-] Balaclava (synthetic, light green)</Original>
                 <English>[-GSRI-] Balaclava (synthetic, light green)</English>
@@ -262,6 +317,21 @@
                 <English>[-GSRI-] Combat uniform (raised collar)</English>
                 <French>[-GSRI-] Tenue de combat (col relevé)</French>
             </Key>
+            <Key ID="STR_GSRI_UNIFORMS_BASE_BME">
+                <Original>[-GSRI-] Combat uniform (BME)</Original>
+                <English>[-GSRI-] Combat uniform (BME)</English>
+                <French>[-GSRI-] Tenue de combat (BME)</French>
+            </Key>
+            <Key ID="STR_GSRI_UNIFORMS_ROLLED_SLEEVES_BME">
+                <Original>[-GSRI-] Combat uniform (rolled sleeves, BME)</Original>
+                <English>[-GSRI-] Combat uniform (rolled sleeves, BME)</English>
+                <French>[-GSRI-] Tenue de combat (manches remontées, BME)</French>
+            </Key>
+            <Key ID="STR_GSRI_UNIFORMS_RAISED_COLLAR_BME">
+                <Original>[-GSRI-] Combat uniform (raised collar, BME)</Original>
+                <English>[-GSRI-] Combat uniform (raised collar, BME)</English>
+                <French>[-GSRI-] Tenue de combat (col relevé, BME)</French>
+            </Key>
             <Key ID="STR_GSRI_UNIFORMS_TSHIRT_CAMO">
                 <Original>[-GSRI-] Combat uniform (t-shirt, camo)</Original>
                 <English>[-GSRI-] Combat uniform (t-shirt, camo)</English>
@@ -271,6 +341,11 @@
                 <Original>[-GSRI-] Combat uniform (t-shirt, green)</Original>
                 <English>[-GSRI-] Combat uniform (t-shirt, green)</English>
                 <French>[-GSRI-] Tenue de combat (t-shirt, vert)</French>
+            </Key>
+            <Key ID="STR_GSRI_UNIFORMS_TSHIRT_BME">
+                <Original>[-GSRI-] Combat uniform (t-shirt, BME)</Original>
+                <English>[-GSRI-] Combat uniform (t-shirt, BME)</English>
+                <French>[-GSRI-] Tenue de combat (t-shirt, BME)</French>
             </Key>
             <Key ID="STR_GSRI_UNIFORMS_GORKA_CAMO">
                 <Original>[-GSRI-] Gorka (camo)</Original>

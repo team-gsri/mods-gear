@@ -40,6 +40,43 @@ class GSRI_uniform_raised_collar: GSRI_uniform {
     };
 };
 
+class GSRI_uniform_bme: Uniform_Base {
+    author="$STR_GSRI_AUTHORS_PHILEAS";
+    scope=2;
+    displayName="$STR_GSRI_UNIFORMS_BASE_BME";
+    picture="\fr\gsri\equipment\uniforms\UI\icon_gsri_uniform_bme.paa";
+    modelsides[]={3,2,1,0};
+    model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+    hiddenSelections[] = {"camo"};
+    hiddenSelectionsTextures[] = {"\fr\gsri\equipment\uniforms\Data\gsri_uniform_bme_co.paa"};
+    class ItemInfo: UniformItem {
+        uniformModel="-";
+        uniformClass="GSRI_uniform_bme_U";
+        containerClass="Supply50";
+        mass=25;
+    };
+};
+class GSRI_uniform_rolled_bme: GSRI_uniform_bme {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
+    displayName="$STR_GSRI_UNIFORMS_ROLLED_SLEEVES_BME";
+    class ItemInfo: UniformItem {
+        uniformModel="-";
+        uniformClass="GSRI_uniform_rolled_bme_U";
+        containerClass="Supply50";
+        mass=25;
+    };
+};
+class GSRI_uniform_raised_collar_bme: GSRI_uniform_bme {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
+    displayName="$STR_GSRI_UNIFORMS_RAISED_COLLAR_BME";
+    class ItemInfo: UniformItem {
+        uniformModel="-";
+        uniformClass="GSRI_uniform_raised_collar_bme_U";
+        containerClass="Supply50";
+        mass=25;
+    };
+};
+
 class GSRI_shirt_camo: GSRI_uniform {
     author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_UNIFORMS_TSHIRT_CAMO";
@@ -58,6 +95,16 @@ class GSRI_shirt_green: GSRI_shirt_camo {
     class ItemInfo: UniformItem {
         uniformModel="-";
         uniformClass="GSRI_shirt_green_U";
+        containerClass="Supply50";
+        mass=25;
+    };
+};
+class GSRI_shirt_bme: GSRI_shirt_camo {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
+    displayName="$STR_GSRI_UNIFORMS_TSHIRT_BME";
+    class ItemInfo: UniformItem {
+        uniformModel="-";
+        uniformClass="GSRI_shirt_bme_U";
         containerClass="Supply50";
         mass=25;
     };

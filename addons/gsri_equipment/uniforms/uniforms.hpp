@@ -30,6 +30,37 @@ class GSRI_uniform_raised_collar_U: GSRI_uniform_U {
     uniformClass="GSRI_uniform_raised_collar";
 };
 
+class GSRI_uniform_bme_U: B_Soldier_F {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
+    modelsides[]={3,2,1,0};
+    scope = 1;
+    displayName="$STR_GSRI_UNIFORMS_BASE_BME";
+    model="\A3\Characters_F\BLUFOR\B_Soldier_01.p3d";
+    uniformClass="GSRI_uniform";
+    hiddenSelections[] = {"camo","insignia"};
+    hiddenSelectionsTextures[] = {"\fr\gsri\equipment\uniforms\Data\gsri_uniform_bme_co.paa"};
+    hiddenSelectionsMaterials[] = {"\fr\gsri\equipment\uniforms\Data\gsri_uniform.rvmat"};
+    linkedItems[] = {};
+    respawnLinkedItems[] = {};
+    weapons[] = {};
+    respawnWeapons[] = {};
+    magazines[] = {};
+    respawnMagazines[] = {};
+    items[] = {};
+    respawnItems[] = {};
+};
+class GSRI_uniform_rolled_bme_U: GSRI_uniform_bme_U {
+    displayName="$STR_GSRI_UNIFORMS_ROLLED_SLEEVES_BME";
+    model="\A3\Characters_F\BLUFOR\B_Soldier_03.p3d";
+    uniformClass="GSRI_uniform_rolled_bme";
+};
+class GSRI_uniform_raised_collar_bme_U: GSRI_uniform_bme_U {
+    modelsides[]={3,2,1,0};
+    displayName="$STR_GSRI_UNIFORMS_RAISED_COLLAR_BME";
+    model="\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_01_F.p3d";
+    uniformClass="GSRI_uniform_raised_collar_bme";
+};
+
 class GSRI_shirt_camo_U: GSRI_uniform_U {
     displayName="$STR_GSRI_UNIFORMS_TSHIRT_CAMO";
     model="\A3\Characters_F\BLUFOR\B_Soldier_02.p3d";
@@ -50,6 +81,14 @@ class GSRI_shirt_green_U: GSRI_shirt_camo_U {
     hiddenSelectionsTextures[] = {
         "\fr\gsri\equipment\uniforms\Data\gsri_uniform_co.paa",
         "\fr\gsri\equipment\uniforms\Data\gsri_shirt_green_co.paa"
+    };
+};
+class GSRI_shirt_bme_U: GSRI_shirt_camo_U {
+    displayName="$STR_GSRI_UNIFORMS_TSHIRT_BME";
+    uniformClass="GSRI_shirt_bme";
+    hiddenSelectionsTextures[] = {
+        "\fr\gsri\equipment\uniforms\Data\gsri_uniform_co.paa",
+        "\fr\gsri\equipment\uniforms\Data\gsri_shirt_bme_co.paa"
     };
 };
 
