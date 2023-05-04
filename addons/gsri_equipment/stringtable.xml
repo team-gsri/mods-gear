@@ -46,6 +46,26 @@
                 <English>[-GSRI-] Carryall backpack</English>
                 <French>[-GSRI-] Sac à dos multifonctions</French>
             </Key>
+            <Key ID="STR_GCAP_BACKPACK_ASSAULTPACK">
+                <Original>[-GCAP-] Assault pack</Original>
+                <English>[-GCAP-] Assault pack</English>
+                <French>[-GCAP-] Paquetage d'assaut</French>
+            </Key>
+            <Key ID="STR_GCAP_BACKPACK_KITBAG">
+                <Original>[-GCAP-] Kitbag</Original>
+                <English>[-GCAP-] Kitbag</English>
+                <French>[-GCAP-] Paquetage de terrain</French>
+            </Key>
+            <Key ID="STR_GCAP_BACKPACK_TACTICALPACK">
+                <Original>[-GCAP-] Tactical backpack</Original>
+                <English>[-GCAP-] Tactical backpack</English>
+                <French>[-GCAP-] Sac à dos tactique</French>
+            </Key>
+            <Key ID="STR_GCAP_BACKPACK_CARRYALL">
+                <Original>[-GCAP-] Carryall backpack</Original>
+                <English>[-GCAP-] Carryall backpack</English>
+                <French>[-GCAP-] Sac à dos multifonctions</French>
+            </Key>
         </Container>
     </Package>
     <Package name="Headgear">
