@@ -46,6 +46,26 @@
                 <English>[-GSRI-] Carryall backpack</English>
                 <French>[-GSRI-] Sac à dos multifonctions</French>
             </Key>
+            <Key ID="STR_GCAP_BACKPACK_ASSAULTPACK">
+                <Original>[-GCAP-] Assault pack</Original>
+                <English>[-GCAP-] Assault pack</English>
+                <French>[-GCAP-] Paquetage d'assaut</French>
+            </Key>
+            <Key ID="STR_GCAP_BACKPACK_KITBAG">
+                <Original>[-GCAP-] Kitbag</Original>
+                <English>[-GCAP-] Kitbag</English>
+                <French>[-GCAP-] Paquetage de terrain</French>
+            </Key>
+            <Key ID="STR_GCAP_BACKPACK_TACTICALPACK">
+                <Original>[-GCAP-] Tactical backpack</Original>
+                <English>[-GCAP-] Tactical backpack</English>
+                <French>[-GCAP-] Sac à dos tactique</French>
+            </Key>
+            <Key ID="STR_GCAP_BACKPACK_CARRYALL">
+                <Original>[-GCAP-] Carryall backpack</Original>
+                <English>[-GCAP-] Carryall backpack</English>
+                <French>[-GCAP-] Sac à dos multifonctions</French>
+            </Key>
         </Container>
     </Package>
     <Package name="Headgear">
@@ -54,6 +74,11 @@
                 <Original>[-GSRI-] Beret</Original>
                 <English>[-GSRI-] Beret</English>
                 <French>[-GSRI-] Béret</French>
+            </Key>
+            <Key ID="STR_GCAP_HEADGEAR_BERET">
+                <Original>[-GCAP-] Beret</Original>
+                <English>[-GCAP-] Beret</English>
+                <French>[-GCAP-] Béret</French>
             </Key>
             <Key ID="STR_GSRI_HEADGEAR_BEANIE_WHITE">
                 <Original>[-GSRI-] Beanie (white)</Original>
@@ -65,35 +90,70 @@
                 <English>[-GSRI-] Combat helmet</English>
                 <French>[-GSRI-] Casque de combat</French>
             </Key>
+            <Key ID="STR_GSRI_HEADGEAR_HELMET_BME">
+                <Original>[-GCAP-] Combat helmet (BME)</Original>
+                <English>[-GCAP-] Combat helmet (BME)</English>
+                <French>[-GCAP-] Casque de combat (BME)</French>
+            </Key>
             <Key ID="STR_GSRI_HEADGEAR_HELMET_ACCESSORIES">
                 <Original>[-GSRI-] Combat helmet (accessories)</Original>
                 <English>[-GSRI-] Combat helmet (accessories)</English>
                 <French>[-GSRI-] Casque de combat (accessoires)</French>
+            </Key>
+            <Key ID="STR_GSRI_HEADGEAR_HELMET_BME_ACCESSORIES">
+                <Original>[-GCAP-] Combat helmet (accessories, BME)</Original>
+                <English>[-GCAP-] Combat helmet (accessories, BME)</English>
+                <French>[-GCAP-] Casque de combat (accessoires, BME)</French>
             </Key>
             <Key ID="STR_GSRI_HEADGEAR_HELMET_LIGHT">
                 <Original>[-GSRI-] Light helmet</Original>
                 <English>[-GSRI-] Light helmet</English>
                 <French>[-GSRI-] Casque léger</French>
             </Key>
+            <Key ID="STR_GSRI_HEADGEAR_HELMET_BME_LIGHT">
+                <Original>[-GCAP-] Light helmet (BME)</Original>
+                <English>[-GCAP-] Light helmet (BME)</English>
+                <French>[-GCAP-] Casque léger (BME)</French>
+            </Key>
             <Key ID="STR_GSRI_HEADGEAR_HELMET_MODULAR">
                 <Original>[-GSRI-] Modular helmet</Original>
                 <English>[-GSRI-] Modular helmet</English>
                 <French>[-GSRI-] Casque modulaire</French>
+            </Key>
+            <Key ID="STR_GSRI_HEADGEAR_HELMET_MODULAR_BME">
+                <Original>[-GCAP-] Modular helmet (BME)</Original>
+                <English>[-GCAP-] Modular helmet (BME)</English>
+                <French>[-GCAP-] Casque modulaire (BME)</French>
             </Key>
             <Key ID="STR_GSRI_HEADGEAR_HELMET_MODULAR_ACCESSORIES">
                 <Original>[-GSRI-] Modular helmet (accessories)</Original>
                 <English>[-GSRI-] Modular helmet (accessories)</English>
                 <French>[-GSRI-] Casque modulaire (accessoires)</French>
             </Key>
+            <Key ID="STR_GSRI_HEADGEAR_HELMET_MODULAR_BME_ACCESSORIES">
+                <Original>[-GCAP-] Modular helmet (accessories, BME)</Original>
+                <English>[-GCAP-] Modular helmet (accessories, BME)</English>
+                <French>[-GCAP-] Casque modulaire (accessoires, BME)</French>
+            </Key>
             <Key ID="STR_GSRI_HEADGEAR_HELMET_MODULAR_HALFINTEGRAL">
                 <Original>[-GSRI-] Modular helmet (half-integral)</Original>
                 <English>[-GSRI-] Modular helmet (half-integral)</English>
                 <French>[-GSRI-] Casque modulaire (semi-intégral)</French>
             </Key>
+            <Key ID="STR_GSRI_HEADGEAR_HELMET_MODULAR_BME_HALFINTEGRAL">
+                <Original>[-GCAP-] Modular helmet (half-integral, BME)</Original>
+                <English>[-GCAP-] Modular helmet (half-integral, BME)</English>
+                <French>[-GCAP-] Casque modulaire (semi-intégral, BME)</French>
+            </Key>
             <Key ID="STR_GSRI_HEADGEAR_HELMET_MODULAR_INTEGRAL">
                 <Original>[-GSRI-] Modular helmet (integral)</Original>
                 <English>[-GSRI-] Modular helmet (integral)</English>
                 <French>[-GSRI-] Casque modulaire (intégral)</French>
+            </Key>
+            <Key ID="STR_GSRI_HEADGEAR_HELMET_MODULAR_BME_INTEGRAL">
+                <Original>[-GCAP-] Modular helmet (integral, BME)</Original>
+                <English>[-GCAP-] Modular helmet (integral, BME)</English>
+                <French>[-GCAP-] Casque modulaire (intégral, BME)</French>
             </Key>
         </Container>
     </Package>
@@ -103,6 +163,11 @@
                 <Original>[-GSRI-] Bandana (camo)</Original>
                 <English>[-GSRI-] Bandana (camo)</English>
                 <French>[-GSRI-] Bandana (camouflage)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BANDMASK_BME">
+                <Original>[-GCAP-] Bandana (BME)</Original>
+                <English>[-GCAP-] Bandana (BME)</English>
+                <French>[-GCAP-] Bandana (BME)</French>
             </Key>
             <Key ID="STR_GSRI_FACEWEAR_BANDMASK_LIGHT">
                 <Original>[-GSRI-] Bandana (light green)</Original>
@@ -123,6 +188,11 @@
                 <Original>[-GSRI-] Bandana (camo, glasses)</Original>
                 <English>[-GSRI-] Bandana (camo, glasses)</English>
                 <French>[-GSRI-] Bandana (camouflage, lunettes)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BANDMASK_GLASSES_BME">
+                <Original>[-GCAP-] Bandana (BME, glasses)</Original>
+                <English>[-GCAP-] Bandana (BME, glasses)</English>
+                <French>[-GCAP-] Bandana (BME, lunettes)</French>
             </Key>
             <Key ID="STR_GSRI_FACEWEAR_BANDMASK_GLASSES_LIGHT">
                 <Original>[-GSRI-] Bandana (light green, glasses)</Original>
@@ -213,6 +283,16 @@
                 <English>[-GSRI-] Balaclava (synthetic, camo, goggles)</English>
                 <French>[-GSRI-] Balaclava (synthétique, camouflage, masque)</French>
             </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_V2_BME">
+                <Original>[-GCAP-] Balaclava (synthetic, BME)</Original>
+                <English>[-GCAP-] Balaclava (synthetic, BME)</English>
+                <French>[-GCAP-] Balaclava (synthétique, BME)</French>
+            </Key>
+            <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_V2_BME_GOGGLES">
+                <Original>[-GCAP-] Balaclava (synthetic, BME, goggles)</Original>
+                <English>[-GCAP-] Balaclava (synthetic, BME, goggles)</English>
+                <French>[-GCAP-] Balaclava (synthétique, BME, masque)</French>
+            </Key>
             <Key ID="STR_GSRI_FACEWEAR_BALACLAVA_V2_LIGHT">
                 <Original>[-GSRI-] Balaclava (synthetic, light green)</Original>
                 <English>[-GSRI-] Balaclava (synthetic, light green)</English>
@@ -262,6 +342,21 @@
                 <English>[-GSRI-] Combat uniform (raised collar)</English>
                 <French>[-GSRI-] Tenue de combat (col relevé)</French>
             </Key>
+            <Key ID="STR_GSRI_UNIFORMS_BASE_BME">
+                <Original>[-GCAP-] Combat uniform (BME)</Original>
+                <English>[-GCAP-] Combat uniform (BME)</English>
+                <French>[-GCAP-] Tenue de combat (BME)</French>
+            </Key>
+            <Key ID="STR_GSRI_UNIFORMS_ROLLED_SLEEVES_BME">
+                <Original>[-GCAP-] Combat uniform (rolled sleeves, BME)</Original>
+                <English>[-GCAP-] Combat uniform (rolled sleeves, BME)</English>
+                <French>[-GCAP-] Tenue de combat (manches remontées, BME)</French>
+            </Key>
+            <Key ID="STR_GSRI_UNIFORMS_RAISED_COLLAR_BME">
+                <Original>[-GCAP-] Combat uniform (raised collar, BME)</Original>
+                <English>[-GCAP-] Combat uniform (raised collar, BME)</English>
+                <French>[-GCAP-] Tenue de combat (col relevé, BME)</French>
+            </Key>
             <Key ID="STR_GSRI_UNIFORMS_TSHIRT_CAMO">
                 <Original>[-GSRI-] Combat uniform (t-shirt, camo)</Original>
                 <English>[-GSRI-] Combat uniform (t-shirt, camo)</English>
@@ -271,6 +366,11 @@
                 <Original>[-GSRI-] Combat uniform (t-shirt, green)</Original>
                 <English>[-GSRI-] Combat uniform (t-shirt, green)</English>
                 <French>[-GSRI-] Tenue de combat (t-shirt, vert)</French>
+            </Key>
+            <Key ID="STR_GSRI_UNIFORMS_TSHIRT_BME">
+                <Original>[-GCAP-] Combat uniform (t-shirt, BME)</Original>
+                <English>[-GCAP-] Combat uniform (t-shirt, BME)</English>
+                <French>[-GCAP-] Tenue de combat (t-shirt, BME)</French>
             </Key>
             <Key ID="STR_GSRI_UNIFORMS_GORKA_CAMO">
                 <Original>[-GSRI-] Gorka (camo)</Original>
@@ -320,6 +420,41 @@
                 <Original>[-GSRI-] Modular carrier rig</Original>
                 <English>[-GSRI-] Modular carrier rig</English>
                 <French>[-GSRI-] Gilet modulable</French>
+            </Key>
+            <Key ID="STR_GSRI_VESTS_CARRIER_BME">
+                <Original>[-GCAP-] Light carrier (hydration pouch)</Original>
+                <English>[-GCAP-] Light carrier (hydration pouch)</English>
+                <French>[-GCAP-] Gilet léger (poche d'hydratation)</French>
+            </Key>
+            <Key ID="STR_GSRI_VESTS_CARRIER_BME_LIGHT">
+                <Original>[-GCAP-] Light carrier</Original>
+                <English>[-GCAP-] Light carrier</English>
+                <French>[-GCAP-] Gilet léger</French>
+            </Key>
+            <Key ID="STR_GSRI_VESTS_MODULAR_BME">
+                <Original>[-GCAP-] Heavy carrier</Original>
+                <English>[-GCAP-] Heavy carrier</English>
+                <French>[-GCAP-] Gilet lourd</French>
+            </Key>
+            <Key ID="STR_GSRI_VESTS_MODULAR_BME_ACCESSORIES">
+                <Original>[-GCAP-] Heavy carrier (accessories)</Original>
+                <English>[-GCAP-] Heavy carrier (accessories)</English>
+                <French>[-GCAP-] Gilet lourd (accessoires)</French>
+            </Key>
+            <Key ID="STR_GSRI_VESTS_MODULAR_BME_REINFORCED">
+                <Original>[-GCAP-] Heavy carrier (addons, accessories)</Original>
+                <English>[-GCAP-] Heavy carrier (addons, accessories)</English>
+                <French>[-GCAP-] Gilet lourd (suppléments, accessoires)</French>
+            </Key>
+            <Key ID="STR_GSRI_VESTS_GA_CARRIER_BME">
+                <Original>[-GCAP-] Modular carrier rig (addons)</Original>
+                <English>[-GCAP-] Modular carrier rig (addons)</English>
+                <French>[-GCAP-] Gilet modulable (suppléments)</French>
+            </Key>
+            <Key ID="STR_GSRI_VESTS_GA_CARRIER_BME_LITE">
+                <Original>[-GCAP-] Modular carrier rig</Original>
+                <English>[-GCAP-] Modular carrier rig</English>
+                <French>[-GCAP-] Gilet modulable</French>
             </Key>
         </Container>
     </Package>

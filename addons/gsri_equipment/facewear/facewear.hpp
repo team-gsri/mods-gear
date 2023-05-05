@@ -15,6 +15,12 @@ class GSRI_bandMask_camo : None {
     identityTypes[]={"NoGlasses",0,"G_NATO_default",0,"G_NATO_casual",0,"G_NATO_pilot",0,"G_NATO_recon",50,"G_NATO_SF",0,"G_NATO_sniper",0,"G_NATO_diver",0,"G_IRAN_default",0,"G_IRAN_diver",0,"G_GUERIL_default",00,"G_HAF_default",50,"G_CIVIL_female",0,"G_CIVIL_male",0};
     mass=4;
 };
+class GSRI_bandMask_bme : GSRI_bandMask_camo {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
+    displayName="$STR_GSRI_FACEWEAR_BANDMASK_BME";
+    picture = "\fr\gsri\equipment\facewear\UI\icon_gsri_bandMask_bme_ca.paa";
+    hiddenSelectionsTextures[]={"\fr\gsri\equipment\facewear\Data\gsri_bandMask_bme_co.paa"};
+};
 class GSRI_bandMask_light : GSRI_bandMask_camo {
     author = "$STR_GSRI_AUTHORS_PHILEAS";
     displayName="$STR_GSRI_FACEWEAR_BANDMASK_LIGHT";
@@ -45,6 +51,12 @@ class GSRI_bandMask_glasses_camo : None {
     identityTypes[]={"NoGlasses",0,"G_NATO_default",0,"G_NATO_casual",0,"G_NATO_pilot",0,"G_NATO_recon",50,"G_NATO_SF",0,"G_NATO_sniper",0,"G_NATO_diver",0,"G_IRAN_default",0,"G_IRAN_diver",0,"G_GUERIL_default",00,"G_HAF_default",50,"G_CIVIL_female",0,"G_CIVIL_male",0};
     model = "\A3\Characters_F_Bootcamp\Guerrilla\g_bandana_sport.p3d"; 
     mass=6;
+};
+class GSRI_bandMask_glasses_bme : GSRI_bandMask_glasses_camo {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
+    displayName="$STR_GSRI_FACEWEAR_BANDMASK_GLASSES_BME";
+    picture = "\fr\gsri\equipment\facewear\UI\icon_gsri_bandMask_glasses_bme_ca.paa";
+    hiddenSelectionsTextures[] = {"\fr\gsri\equipment\facewear\Data\gsri_bandMask_bme_co.paa","\fr\gsri\equipment\facewear\Data\gsri_glasses_co.paa"};
 };
 class GSRI_bandMask_glasses_light : GSRI_bandMask_glasses_camo {
     author = "$STR_GSRI_AUTHORS_PHILEAS";
@@ -168,6 +180,18 @@ class GSRI_balaclava_v2_camo_goggles : GSRI_balaclava_v2_camo {
     displayName="$STR_GSRI_FACEWEAR_BALACLAVA_V2_CAMO_GOGGLES";
     model = "\A3\Characters_F_Exp\BLUFOR\G_Balaclava_TI_G_F.p3d";
     hiddenSelections[] = {"camo1"};
+};
+class GSRI_balaclava_v2_bme : GSRI_balaclava_v2_camo {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
+    displayName="$STR_GSRI_FACEWEAR_BALACLAVA_V2_BME";
+    picture = "\fr\gsri\equipment\facewear\UI\icon_gsri_balaclava_v2_bme_ca.paa";
+    hiddenSelectionsTextures[]={"\fr\gsri\equipment\facewear\Data\gsri_balaclava_v2_bme_co.paa"};
+};
+class GSRI_balaclava_v2_bme_goggles : GSRI_balaclava_v2_camo_goggles {
+    author = "$STR_GSRI_AUTHORS_PHILEAS";
+    displayName="$STR_GSRI_FACEWEAR_BALACLAVA_V2_BME_GOGGLES";
+    picture = "\fr\gsri\equipment\facewear\UI\icon_gsri_balaclava_v2_bme_ca.paa";
+    hiddenSelectionsTextures[]={"\fr\gsri\equipment\facewear\Data\gsri_balaclava_v2_bme_co.paa"};
 };
 class GSRI_balaclava_v2_light : GSRI_balaclava_v2_camo {
     author = "$STR_GSRI_AUTHORS_PHILEAS";
