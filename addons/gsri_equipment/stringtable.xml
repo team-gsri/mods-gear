@@ -421,6 +421,41 @@
                 <English>[-GSRI-] Modular carrier rig</English>
                 <French>[-GSRI-] Gilet modulable</French>
             </Key>
+            <Key ID="STR_GSRI_VESTS_CARRIER_BME">
+                <Original>[-GCAP-] Light carrier (hydration pouch)</Original>
+                <English>[-GCAP-] Light carrier (hydration pouch)</English>
+                <French>[-GCAP-] Gilet léger (poche d'hydratation)</French>
+            </Key>
+            <Key ID="STR_GSRI_VESTS_CARRIER_BME_LIGHT">
+                <Original>[-GCAP-] Light carrier</Original>
+                <English>[-GCAP-] Light carrier</English>
+                <French>[-GCAP-] Gilet léger</French>
+            </Key>
+            <Key ID="STR_GSRI_VESTS_MODULAR_BME">
+                <Original>[-GCAP-] Heavy carrier</Original>
+                <English>[-GCAP-] Heavy carrier</English>
+                <French>[-GCAP-] Gilet lourd</French>
+            </Key>
+            <Key ID="STR_GSRI_VESTS_MODULAR_BME_ACCESSORIES">
+                <Original>[-GCAP-] Heavy carrier (accessories)</Original>
+                <English>[-GCAP-] Heavy carrier (accessories)</English>
+                <French>[-GCAP-] Gilet lourd (accessoires)</French>
+            </Key>
+            <Key ID="STR_GSRI_VESTS_MODULAR_BME_REINFORCED">
+                <Original>[-GCAP-] Heavy carrier (addons, accessories)</Original>
+                <English>[-GCAP-] Heavy carrier (addons, accessories)</English>
+                <French>[-GCAP-] Gilet lourd (suppléments, accessoires)</French>
+            </Key>
+            <Key ID="STR_GSRI_VESTS_GA_CARRIER_BME">
+                <Original>[-GCAP-] Modular carrier rig (addons)</Original>
+                <English>[-GCAP-] Modular carrier rig (addons)</English>
+                <French>[-GCAP-] Gilet modulable (suppléments)</French>
+            </Key>
+            <Key ID="STR_GSRI_VESTS_GA_CARRIER_BME_LITE">
+                <Original>[-GCAP-] Modular carrier rig</Original>
+                <English>[-GCAP-] Modular carrier rig</English>
+                <French>[-GCAP-] Gilet modulable</French>
+            </Key>
         </Container>
     </Package>
 </Project>
