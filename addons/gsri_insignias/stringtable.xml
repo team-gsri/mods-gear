@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Project name="GSRI-Insignias">
+    <Package name="Insignias">
+        <Container name="Blue">
+            <Key ID="STR_GSRI_Insignias_Blue_0">
+                <Original>GCAP Blue (0)</Original>
+                <English>GCAP Blue (0)</English>
+                <French>GCAP Bleu (0)</French>
+            </Key>
+            <Key ID="STR_GSRI_Insignias_Blue_1">
+                <Original>GCAP Blue (1)</Original>
+                <English>GCAP Blue (1)</English>
+                <French>GCAP Bleu (1)</French>
+            </Key>
+            <Key ID="STR_GSRI_Insignias_Blue_2">
+                <Original>GCAP Blue (2)</Original>
+                <English>GCAP Blue (2)</English>
+                <French>GCAP Bleu (2)</French>
+            </Key>
+        </Container>
+        <Container name="Red">
+            <Key ID="STR_GSRI_Insignias_Red_0">
+                <Original>GCAP Red (0)</Original>
+                <English>GCAP Red (0)</English>
+                <French>GCAP Rouge (0)</French>
+            </Key>
+            <Key ID="STR_GSRI_Insignias_Red_1">
+                <Original>GCAP Red (1)</Original>
+                <English>GCAP Red (1)</English>
+                <French>GCAP Rouge (1)</French>
+            </Key>
+            <Key ID="STR_GSRI_Insignias_Red_2">
+                <Original>GCAP Red (2)</Original>
+                <English>GCAP Red (2)</English>
+                <French>GCAP Rouge (2)</French>
+            </Key>
+        </Container>
+        <Container name="Yellow">
+            <Key ID="STR_GSRI_Insignias_Yellow_0">
+                <Original>GCAP Yellow (0)</Original>
+                <English>GCAP Yellow (0)</English>
+                <French>GCAP Jaune (0)</French>
+            </Key>
+            <Key ID="STR_GSRI_Insignias_Yellow_1">
+                <Original>GCAP Yellow (1)</Original>
+                <English>GCAP Yellow (1)</English>
+                <French>GCAP Jaune (1)</French>
+            </Key>
+            <Key ID="STR_GSRI_Insignias_Yellow_2">
+                <Original>GCAP Yellow (2)</Original>
+                <English>GCAP Yellow (2)</English>
+                <French>GCAP Jaune (2)</French>
+            </Key>
+        </Container>
+        <Container name="Green">
+            <Key ID="STR_GSRI_Insignias_Green_0">
+                <Original>GCAP Green (0)</Original>
+                <English>GCAP Green (0)</English>
+                <French>GCAP Vert (0)</French>
+            </Key>
+            <Key ID="STR_GSRI_Insignias_Green_1">
+                <Original>GCAP Green (1)</Original>
+                <English>GCAP Green (1)</English>
+                <French>GCAP Vert (1)</French>
+            </Key>
+            <Key ID="STR_GSRI_Insignias_Green_2">
+                <Original>GCAP Green (2)</Original>
+                <English>GCAP Green (2)</English>
+                <French>GCAP Vert (2)</French>
+            </Key>
+        </Container>
+    </Package>
+</Project>
