@@ -129,13 +129,13 @@ switch(_role) do
 	};
 	case "Grenadier": {
 		for "_i" from 1 to 10 do {
-			this addItemToBackpack "1Rnd_HE_Grenade_shell";
+			player addItemToBackpack "1Rnd_HE_Grenade_shell";
 		};
 		for "_i" from 1 to 10 do {
-			this addItemToBackpack "ACE_40mm_Flare_white";
+			player addItemToBackpack "ACE_40mm_Flare_white";
 		};
 		for "_i" from 1 to 10 do {
-			this addItemToBackpack "1Rnd_Smoke_Grenade_shell";
+			player addItemToBackpack "1Rnd_Smoke_Grenade_shell";
 		};
 	};
 	case "Lead": {
