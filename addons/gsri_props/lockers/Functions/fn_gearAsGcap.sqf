@@ -37,14 +37,14 @@ switch (_role) do {
 // Add containers
 switch(_role) do {
 	default {
-		player forceAddUniform "GSRI_uniform";
-		player addVest "GSRI_vest_modular_accessories";
-		player addBackpack "GSRI_Kitbag";
+		player forceAddUniform "GSRI_uniform_bme";
+		player addVest "GSRI_vest_modular_bme_accessories";
+		player addBackpack "GSRI_Kitbag_bme";
 	};
 	case "Medic": {
-		player forceAddUniform "GSRI_uniform";
-		player addVest "GSRI_vest_modular_accessories";
-		player addBackpack "GSRI_TacticalPack";
+		player forceAddUniform "GSRI_uniform_bme";
+		player addVest "GSRI_vest_modular_bme_accessories";
+		player addBackpack "GSRI_TacticalPack_bme";
 	};
 };
 
@@ -66,7 +66,7 @@ switch(_role) do {
 };
 
 // Add common items
-player addHeadgear "GSRI_helmet_spec";
+player addHeadgear "GSRI_helmet_bme_spec";
 player addItemToUniform "ACE_EarPlugs";
 player addItemToVest "ACRE_PRC343";
 player addItemToBackpack "ACE_EntrenchingTool";
