@@ -59,7 +59,7 @@ switch(_role) do {
 
 // Add common items
 player addItemToUniform "ACE_EarPlugs";
-player addItemToVest "ACRE_PRC343";
+player addItemToVest "ACRE_PRC152";
 player addItemToBackpack "A3_GPNVG18_BLK_F";
 player addHeadgear "GSRI_helmet_modular_halfintegral";
 player addGoggles "GSRI_balaclava_v2_camo";
