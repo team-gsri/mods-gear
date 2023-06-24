@@ -94,6 +94,36 @@ class CfgVehicles {
 class CfgWeapons {
     class ACE_ItemCore;
     class CBA_MiscItem_ItemInfo;
+    class GSRI_WeightingBag_small : ACE_ItemCore {
+        displayName = "$STR_GSRI_WeightingBag_small";
+        scope = 2;
+        picture = "\z\ace\addons\medical_treatment\ui\bodybag_ca.paa";
+        model = "\z\ace\addons\medical_treatment\data\bodybagItem.p3d";
+        descriptionShort = "$STR_GSRI_WeightingBag_small_desc";
+        class ItemInfo : CBA_MiscItem_ItemInfo {
+            mass = 1;
+        };
+    };
+    class GSRI_WeightingBag_medium : ACE_ItemCore {
+        displayName = "$STR_GSRI_WeightingBag_medium";
+        scope = 2;
+        picture = "\z\ace\addons\medical_treatment\ui\bodybag_ca.paa";
+        model = "\z\ace\addons\medical_treatment\data\bodybagItem.p3d";
+        descriptionShort = "$STR_GSRI_WeightingBag_medium_desc";
+        class ItemInfo : CBA_MiscItem_ItemInfo {
+            mass = 10;
+        };
+    };
+    class GSRI_WeightingBag_large : ACE_ItemCore {
+        displayName = "$STR_GSRI_WeightingBag_large";
+        scope = 2;
+        picture = "\z\ace\addons\medical_treatment\ui\bodybag_ca.paa";
+        model = "\z\ace\addons\medical_treatment\data\bodybagItem.p3d";
+        descriptionShort = "$STR_GSRI_WeightingBag_large_desc";
+        class ItemInfo : CBA_MiscItem_ItemInfo {
+            mass = 100;
+        };
+    };
     class GSRI_weighting_bag : ACE_ItemCore {
         displayName = "$STR_GSRI_Weighting_bag";
         scope = 2;

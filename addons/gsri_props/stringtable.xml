@@ -197,5 +197,37 @@
                 <French>Utilisable pour lester son équipement de 5kg.</French>
             </Key>
         </Container>
+        <Container name="WeightingBags">
+            <Key ID="STR_GSRI_WeightingBag_small">
+                <Original>Weighting bag (50g)</Original>
+                <English>Weighting bag (50g)</English>
+                <French>Sac de lestage (50g)</French>
+            </Key>
+            <Key ID="STR_GSRI_WeightingBag_medim">
+                <Original>Weighting bag (500g)</Original>
+                <English>Weighting bag (500g)</English>
+                <French>Sac de lestage (500g)</French>
+            </Key>
+            <Key ID="STR_GSRI_WeightingBag_large">
+                <Original>Weighting bag (5kg)</Original>
+                <English>Weighting bag (5kg)</English>
+                <French>Sac de lestage (5kg)</French>
+            </Key>
+            <Key ID="STR_GSRI_WeightingBag_small_desc">
+                <Original>Use this to weight down your loadout by 50g.</Original>
+                <English>Use this to weight down your loadout by 50g.</English>
+                <French>Utilisable pour lester son équipement de 50g.</French>
+            </Key>
+            <Key ID="STR_GSRI_WeightingBag_medium_desc">
+                <Original>Use this to weight down your loadout by 500g.</Original>
+                <English>Use this to weight down your loadout by 500g.</English>
+                <French>Utilisable pour lester son équipement de 500g.</French>
+            </Key>
+            <Key ID="STR_GSRI_WeightingBag_large_desc">
+                <Original>Use this to weight down your loadout by 5kg.</Original>
+                <English>Use this to weight down your loadout by 5kg.</English>
+                <French>Utilisable pour lester son équipement de 5kg.</French>
+            </Key>
+        </Container>
     </Package>
 </Project>
