@@ -35,9 +35,18 @@ switch (_role) do {
 };
 
 // Add containers
-player forceAddUniform "GSRI_uniform_bme";
-player addVest "GSRI_vest_modular_bme_accessories";
-player addBackpack "GSRI_Kitbag_bme";
+switch(_role) do {
+	default {
+		player forceAddUniform "GSRI_uniform_bme";
+		player addVest "GSRI_vest_modular_bme_accessories";
+		player addBackpack "GSRI_Kitbag_bme";
+	};
+	case "Medic": {
+		player forceAddUniform "GSRI_uniform_bme";
+		player addVest "GSRI_vest_modular_bme_accessories";
+		player addBackpack "GSRI_TacticalPack_bme";
+	};
+};
 
 // Add primary ammo
 switch(_role) do {
@@ -99,6 +108,24 @@ switch(_role) do
 {
 	case "Antitank": {
 		player addWeapon "tf47_at4_heat";
+	};
+	case "Medic": {
+		player addItemToBackpack "ACE_surgicalKit";
+		for "_i" from 1 to 30 do {
+			player addItemToBackpack "ACE_packingBandage";
+		};
+		for "_i" from 1 to 15 do {
+			player addItemToBackpack "ACE_salineIV_500";
+		};
+		for "_i" from 1 to 10 do {
+			player addItemToBackpack "ACE_morphine";
+		};
+		for "_i" from 1 to 10 do {
+			player addItemToBackpack "ACE_epinephrine";
+		};
+		for "_i" from 1 to 10 do {
+			player addItemToBackpack "ACE_splint";
+		};
 	};
 	case "Grenadier": {
 		for "_i" from 1 to 10 do {

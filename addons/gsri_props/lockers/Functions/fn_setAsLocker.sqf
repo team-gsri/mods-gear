@@ -58,14 +58,14 @@ _preslotsActions pushBack (["actionGcapPreslot",localize "STR_GSRI_locker_gearAs
 	private _actionName = ["actionGsri", _x] joinString "";
 	private _display = ["STR_GSRI_locker_gearAsGsri", _x] joinString "";	
 	_gsriActions pushBack ([_actionName, localize _display, "", GSRI_fnc_gearAsGsri, {true}, {}, [_x]] call ace_interact_menu_fnc_createAction);
-} forEach ["Operator", "Antitank", "Gunner", "Engineer", "Lead"];
+} forEach ["Operator", "Antitank", "Medic", "Gunner", "Engineer", "Lead"];
 
 // GCAP preslots
 {
 	private _actionName = ["actionGcap", _x] joinString "";
 	private _display = ["STR_GSRI_locker_gearAsGcap", _x] joinString "";	
 	_gcapActions pushBack ([_actionName, localize _display, "", GSRI_fnc_gearAsGcap, {true}, {}, [_x]] call ace_interact_menu_fnc_createAction);
-} forEach ["Rifleman", "Antitank", "Grenadier", "Gunner", "Marksman", "Lead"];
+} forEach ["Rifleman", "Antitank", "Grenadier", "Medic", "Gunner", "Marksman", "Lead"];
 
 // Medical skills actions
 _actionMedicalMain = ["actionMedicalMain",localize "STR_GSRI_locker_medicalMain","\z\ace\addons\medical_gui\ui\cross.paa",{},{true}] call ace_interact_menu_fnc_createAction;
